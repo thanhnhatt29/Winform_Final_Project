@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MUONSACHModelStoreContainer" CdmEntityContainer="MUONSACH">
+    <EntitySetMapping Name="QuanLis">
+      <EntityTypeMapping TypeName="MUONSACHModel.QuanLi">
+        <MappingFragment StoreEntitySet="QuanLi">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="passw" ColumnName="passw" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Saches">
+      <EntityTypeMapping TypeName="MUONSACHModel.Sach">
+        <MappingFragment StoreEntitySet="Sach">
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="TacGia" ColumnName="TacGia" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="genre" ColumnName="genre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Theloais">
+      <EntityTypeMapping TypeName="MUONSACHModel.Theloai">
+        <MappingFragment StoreEntitySet="Theloai">
+          <ScalarProperty Name="genre" ColumnName="genre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
