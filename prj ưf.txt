@@ -1,0 +1,36 @@
+dang nhap
+Dang ki
+Form menu:
+	show thong tin
+	form them sua xoa
+	
+show thong tin
+	- sach: them sua xoa
+	- doc gia: them sua xoa
+	- Muon: form mượn
+	- Tra: form trả
+	- lich su:
+
+form 
+- Tạo list khi thêm vào bảng mượn
+- Tạo list đã mượn trc khi trả
+- Vị trí và tình trạng sách 
+- Tìm kiếm Sách
+
+- Tạo thẻ cho độc giả mới
+
+
+
+Những thao tác chính:
+- Thêm, Sửa, Xoá, tìm kiếm sách
+- Thêm, Sửa, Xoá, tìm kiếm tác giả
+- Thêm, Sửa, Xoá, tìm kiếm độc giả, thẻ
+
+- Thêm nhân viên - admin
+- Mượn sách theo số thẻ - tạo list trước khi mượn
+- Trả sách theo số thẻ - hiện list đang mượn - dùng checkbox để chọn những cuốn muốn trả
+
+- Tìm sách đang mượn theo id thẻ
+- 
+
+
