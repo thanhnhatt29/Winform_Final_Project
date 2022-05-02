@@ -12,20 +12,22 @@ namespace DAL
     using System;
     using System.Collections.Generic;
     
-    public partial class DocGia
+    public partial class TheThuVien
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public DocGia()
+        public TheThuVien()
         {
-            this.TheThuViens = new HashSet<TheThuVien>();
+            this.MuonTras = new HashSet<MuonTra>();
         }
     
+        public int SoThe { get; set; }
         public string MaDocGia { get; set; }
-        public string TenDocGia { get; set; }
-        public string DiaChi { get; set; }
-        public string SDT { get; set; }
+        public Nullable<System.DateTime> NgayBatDau { get; set; }
+        public Nullable<System.DateTime> NgayHetHan { get; set; }
+        public string GhiChu { get; set; }
     
+        public virtual DocGia DocGia { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TheThuVien> TheThuViens { get; set; }
+        public virtual ICollection<MuonTra> MuonTras { get; set; }
     }
 }

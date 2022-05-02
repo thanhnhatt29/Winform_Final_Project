@@ -12,18 +12,21 @@ namespace DAL
         public List<Sach> LoadData()
         {
             List<Sach> list = new List<Sach>();
-            using(MUONSACH db = new MUONSACH())
+            using(QLTHUVIENEntities db = new QLTHUVIENEntities())
             {
                 var table = from c in db.Saches 
                             select c;
                 foreach(var i in table)
                 {
                     Sach sach = new Sach();
-                    sach.IDSach = i.IDSach;
-                    sach.TenSach = i.TenSach;
-                    sach.Soluong = i.Soluong;
-                    sach.TacGia = i.TacGia;
-                    sach.Theloai = i.Theloai;
+                    sach.MaSach=i.MaSach;
+                    sach.MaTacGia=i.MaTacGia;
+                    sach.TenSach=i.TenSach;
+                    sach.TenTheLoai=i.TenTheLoai;
+                    sach.NamXuatBan=i.NamXuatBan;
+                    sach.ViTri=i.ViTri;
+                    sach.SoLuongConLai=i.SoLuongConLai;
+                    
 
                     list.Add(sach);
                 }
@@ -32,9 +35,10 @@ namespace DAL
             return list;
         }
         
-        public bool AddBookDAL(string ID, string name, string genre)
+        public bool AddBookDAL(string ID, string name,string author, string genre,
+                                string year,string location,int amount)
         {
-            using(MUONSACH db = new MUONSACH())
+            using(QLTHUVIENEntities db = new QLTHUVIENEntities())
             {
                 var table = from c in db.Saches
                             select c;
@@ -47,11 +51,14 @@ namespace DAL
                 }
                 
                 Sach sach = new Sach();
-                sach.IDSach = ID;
+
+                sach.MaSach = ID;
                 sach.TenSach = name;
-                sach.Soluong = 1;
-                sach.TacGia = null;
-                sach.Theloai = genre;
+                sach.MaTacGia = author;
+                sach.TenTheLoai = genre;
+                sach.NamXuatBan = year;
+                sach.ViTri = location;
+                sach.SoLuongConLai = amount;
 
                 db.Saches.Add(sach);
                 db.SaveChanges();
@@ -59,6 +66,8 @@ namespace DAL
             }
             return false;
         }
+
+        
         
 
         

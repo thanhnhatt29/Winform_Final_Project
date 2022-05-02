@@ -14,22 +14,14 @@ namespace DAL
     
     public partial class Sach
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Sach()
-        {
-            this.Muons = new HashSet<Muon>();
-            this.MuonTras = new HashSet<MuonTra>();
-        }
-    
-        public string IDSach { get; set; }
+        public string MaSach { get; set; }
         public string TenSach { get; set; }
-        public string TacGia { get; set; }
-        public Nullable<int> Soluong { get; set; }
-        public string Theloai { get; set; }
+        public string MaTacGia { get; set; }
+        public string TenTheLoai { get; set; }
+        public string NamXuatBan { get; set; }
+        public string ViTri { get; set; }
+        public int SoLuongConLai { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Muon> Muons { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MuonTra> MuonTras { get; set; }
+        protected virtual TacGia TacGia { get; set; }
     }
 }

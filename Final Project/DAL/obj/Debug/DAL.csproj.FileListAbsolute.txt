@@ -10,3 +10,15 @@ C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DAL\obj\Debug\DAL.c
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DAL\obj\Debug\DAL.dll
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DAL\obj\Debug\DAL.pdb
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\obj\Debug\DAL.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\obj\Debug\DAL.pdb
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\DAL.dll.config
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\DAL.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\DAL.pdb
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\EntityFramework.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\EntityFramework.xml
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\obj\Debug\DAL.csproj.CopyComplete

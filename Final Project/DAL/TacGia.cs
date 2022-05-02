@@ -12,20 +12,19 @@ namespace DAL
     using System;
     using System.Collections.Generic;
     
-    public partial class DocGia
+    public partial class TacGia
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public DocGia()
+        public TacGia()
         {
-            this.TheThuViens = new HashSet<TheThuVien>();
+            this.Saches = new HashSet<Sach>();
         }
     
-        public string MaDocGia { get; set; }
-        public string TenDocGia { get; set; }
-        public string DiaChi { get; set; }
-        public string SDT { get; set; }
+        public string MaTacGia { get; set; }
+        public string TenTacGia { get; set; }
+        public string GhiChu { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TheThuVien> TheThuViens { get; set; }
+        public virtual ICollection<Sach> Saches { get; set; }
     }
 }

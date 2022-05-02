@@ -14,12 +14,17 @@ namespace DAL
     
     public partial class MuonTra
     {
-        public string IDSach { get; set; }
-        public string IDDocGia { get; set; }
-        public System.DateTime NgayGiaoDich { get; set; }
-        public string HanhDong { get; set; }
+        public int MaMuonTra { get; set; }
+        public string MaSach { get; set; }
+        public Nullable<int> SoThe { get; set; }
+        public string MaNhanVien { get; set; }
+        public System.DateTime NgayMuon { get; set; }
+        public string GhiChu { get; set; }
+        public Nullable<bool> Da_Tra { get; set; }
+        public Nullable<System.DateTime> NgayTra { get; set; }
     
-        public virtual DocGia DocGia { get; set; }
+        public virtual QuanLy QuanLy { get; set; }
         public virtual Sach Sach { get; set; }
+        public virtual TheThuVien TheThuVien { get; set; }
     }
 }

@@ -8,22 +8,22 @@ namespace DAL
 {
     public class LogInDAL
     {
-        public List<QuanLi> getAccount()
+        public List<QuanLy> getAccount()
         {
             
-            List<QuanLi> list = new List<QuanLi>();
-            using (MUONSACH db = new MUONSACH())
+            List<QuanLy> list = new List<QuanLy>();
+            using (QLTHUVIENEntities db = new QLTHUVIENEntities())
             {
                 
-                var table = from c in db.QuanLis
+                var table = from c in db.QuanLies
                             select c;
 
                 foreach (var i in table)
                 {
-                    if (i.username == null) return list;
-                    QuanLi tk = new QuanLi();
-                    tk.username = i.username.TrimEnd();
-                    tk.passw = i.passw.TrimEnd();
+                    if (i.MaNhanVien == null) return list;
+                    QuanLy tk = new QuanLy();
+                    tk.MaNhanVien = i.MaNhanVien.TrimEnd();
+                    tk.MatKhau = i.MatKhau.TrimEnd();
 
                     list.Add(tk);
                 }
@@ -34,19 +34,19 @@ namespace DAL
 
         public bool SignInDAL(string name, string pass)
         {
-            List<QuanLi> list = new List<QuanLi>();
-            using (MUONSACH db = new MUONSACH())
+            List<QuanLy> list = new List<QuanLy>();
+            using (QLTHUVIENEntities db = new QLTHUVIENEntities())
             {
-                var table = from c in db.QuanLis
+                var table = from c in db.QuanLies
                             select c;
                 foreach (var i in table)
                 {
-                    if (name == i.username.TrimEnd())
+                    if (name == i.MaNhanVien.TrimEnd())
                     {
                         return false;
                     }
                 }
-                db.QuanLis.Add(new QuanLi { username = name, passw = pass });
+                db.QuanLies.Add(new QuanLy { MaNhanVien = name, MatKhau = pass });
                 db.SaveChanges();
                 return true;
 

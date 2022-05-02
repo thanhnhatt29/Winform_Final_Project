@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1483135fa4234d93a62baf03cc54d7c1" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="QLTHUVIENModel.DocGia" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTHUVIENModel.MuonTra" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTHUVIENModel.QuanLy" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTHUVIENModel.Sach" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTHUVIENModel.TacGia" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLTHUVIENModel.TheThuVien" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <AssociationConnector Association="QLTHUVIENModel.FK__TheThuVie__MaDoc__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTHUVIENModel.FK__MuonTra__MaNhanV__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTHUVIENModel.FK__MuonTra__MaSach__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTHUVIENModel.FK__MuonTra__SoThe__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="QLTHUVIENModel.FK__Sach__MaTacGia__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

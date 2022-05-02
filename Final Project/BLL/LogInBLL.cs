@@ -11,12 +11,12 @@ namespace BLL
         LogInDAL log = new LogInDAL();
         public bool IsLoggedIn(string ten, string mk)
         {
-            List<QuanLi> list = new List<QuanLi>();
+            List<QuanLy> list = new List<QuanLy>();
             
             list = log.getAccount();
             foreach (var i in list)
             {
-                if (i.username == ten && i.passw == mk)
+                if (i.MaNhanVien == ten && i.MatKhau == mk)
                 {
                     return true;
                 }

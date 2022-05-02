@@ -13,10 +13,10 @@ namespace DAL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MUONSACH : DbContext
+    public partial class QLTHUVIENEntities : DbContext
     {
-        public MUONSACH()
-            : base("name=MUONSACH")
+        public QLTHUVIENEntities()
+            : base("name=QLTHUVIENEntities")
         {
         }
     
@@ -26,9 +26,10 @@ namespace DAL
         }
     
         public virtual DbSet<DocGia> DocGias { get; set; }
-        public virtual DbSet<Muon> Muons { get; set; }
         public virtual DbSet<MuonTra> MuonTras { get; set; }
-        public virtual DbSet<QuanLi> QuanLis { get; set; }
+        public virtual DbSet<QuanLy> QuanLies { get; set; }
         public virtual DbSet<Sach> Saches { get; set; }
+        public virtual DbSet<TacGia> TacGias { get; set; }
+        public virtual DbSet<TheThuVien> TheThuViens { get; set; }
     }
 }

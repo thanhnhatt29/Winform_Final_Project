@@ -56,64 +56,65 @@
     <Compile Include="BookDAL.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="DocGia.cs">
-      <DependentUpon>MUONSACHModel.tt</DependentUpon>
+      <DependentUpon>LibraryModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibraryModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibraryModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibraryModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="LogInDAL.cs" />
-    <Compile Include="Muon.cs">
-      <DependentUpon>MUONSACHModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MUONSACHModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MUONSACHModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MUONSACHModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MUONSACHModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MUONSACHModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MUONSACHModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="MuonTra.cs">
-      <DependentUpon>MUONSACHModel.tt</DependentUpon>
+      <DependentUpon>LibraryModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuanLi.cs">
-      <DependentUpon>MUONSACHModel.tt</DependentUpon>
+    <Compile Include="QuanLy.cs">
+      <DependentUpon>LibraryModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Sach.cs">
-      <DependentUpon>MUONSACHModel.tt</DependentUpon>
+      <DependentUpon>LibraryModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TacGia.cs">
+      <DependentUpon>LibraryModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TheThuVien.cs">
+      <DependentUpon>LibraryModel.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="MUONSACHModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MUONSACHModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="MUONSACHModel.edmx.diagram">
-      <DependentUpon>MUONSACHModel.edmx</DependentUpon>
+    <EntityDeploy Include="LibraryModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LibraryModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="LibraryModel.edmx.diagram">
+      <DependentUpon>LibraryModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MUONSACHModel.Context.tt">
+    <Content Include="LibraryModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>MUONSACHModel.Context.cs</LastGenOutput>
-      <DependentUpon>MUONSACHModel.edmx</DependentUpon>
+      <DependentUpon>LibraryModel.edmx</DependentUpon>
+      <LastGenOutput>LibraryModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="MUONSACHModel.tt">
+    <Content Include="LibraryModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MUONSACHModel.edmx</DependentUpon>
-      <LastGenOutput>MUONSACHModel.cs</LastGenOutput>
+      <DependentUpon>LibraryModel.edmx</DependentUpon>
+      <LastGenOutput>LibraryModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
