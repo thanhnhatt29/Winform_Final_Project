@@ -95,7 +95,7 @@ namespace Final
         void DelBook(string BookID)
         {
             BookBLL bookBLL =new BookBLL();
-            if(bookBLL.checkBook(BookID))
+            if(!bookBLL.checkBook(BookID))
             {
                 bookBLL.DelBookBLL(BookID);
                 LoadBook();
@@ -119,6 +119,7 @@ namespace Final
             BookBLL bookBLL = new BookBLL();
             
             dataGridBook.DataSource = bookBLL.FindBookBLL(ID,Name,AuthorID,Genre,Amount,Location,Year);
+            AddBinding();
         }
 
         void AddBinding()
@@ -170,6 +171,8 @@ namespace Final
         private void buttonDel_Click(object sender, EventArgs e)
         {
             ActivateButton();
+            AddBinding();
+            BoxEnable();
             mode = 2;
 
             Function.Text = "Xoa Sach";
@@ -179,6 +182,7 @@ namespace Final
         {
             ActivateButton();
             AddBinding();
+            BoxEnable();
             BookID.Enabled = false;
             mode = 3;
             Function.Text = "Chinh sua Sach";
@@ -189,6 +193,7 @@ namespace Final
         {
             ActivateButton();
             mode = 4;
+            BoxEnable();
             Function.Text = "Tim Sach";
         }
 
@@ -215,6 +220,7 @@ namespace Final
             }    
             mode = 0;
             Clear();
+            BoxEnable();
             Function.Text = "";
         }
 
@@ -223,6 +229,7 @@ namespace Final
             ButtonDone();
             Clear();
             LoadBook();
+            BoxEnable();
             mode = 0;
 
             Function.Text = "";
