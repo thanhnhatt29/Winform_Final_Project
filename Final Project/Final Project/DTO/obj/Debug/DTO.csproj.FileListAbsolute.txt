@@ -1,0 +1,6 @@
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DTO\bin\Debug\DTO.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DTO\bin\Debug\DTO.pdb
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DTO\obj\Debug\DTO.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Final Project\DTO\obj\Debug\DTO.pdb

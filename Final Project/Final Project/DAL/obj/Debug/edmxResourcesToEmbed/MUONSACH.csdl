@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MUONSACHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DocGia">
+    <Key>
+      <PropertyRef Name="IDDocGia" />
+    </Key>
+    <Property Name="IDDocGia" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Ten" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="CMND" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="SoDienThoai" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Muons" Relationship="Self.FK__Muon__IDDocGia__300424B4" FromRole="DocGia" ToRole="Muon" />
+    <NavigationProperty Name="MuonTras" Relationship="Self.FK__MuonTra__IDDocGi__2C3393D0" FromRole="DocGia" ToRole="MuonTra" />
+  </EntityType>
+  <EntityType Name="Muon">
+    <Key>
+      <PropertyRef Name="IDSach" />
+      <PropertyRef Name="IDDocGia" />
+      <PropertyRef Name="NgayMuon" />
+    </Key>
+    <Property Name="IDSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="IDDocGia" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="NgayMuon" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="DocGia" Relationship="Self.FK__Muon__IDDocGia__300424B4" FromRole="Muon" ToRole="DocGia" />
+    <NavigationProperty Name="Sach" Relationship="Self.FK__Muon__IDSach__2F10007B" FromRole="Muon" ToRole="Sach" />
+  </EntityType>
+  <EntityType Name="MuonTra">
+    <Key>
+      <PropertyRef Name="IDSach" />
+      <PropertyRef Name="IDDocGia" />
+      <PropertyRef Name="NgayGiaoDich" />
+    </Key>
+    <Property Name="IDSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="IDDocGia" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="NgayGiaoDich" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="HanhDong" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="DocGia" Relationship="Self.FK__MuonTra__IDDocGi__2C3393D0" FromRole="MuonTra" ToRole="DocGia" />
+    <NavigationProperty Name="Sach" Relationship="Self.FK__MuonTra__IDSach__2B3F6F97" FromRole="MuonTra" ToRole="Sach" />
+  </EntityType>
+  <EntityType Name="QuanLi">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="passw" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Sach">
+    <Key>
+      <PropertyRef Name="IDSach" />
+    </Key>
+    <Property Name="IDSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TenSach" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="TacGia" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="Soluong" Type="Int32" />
+    <Property Name="Theloai" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Muons" Relationship="Self.FK__Muon__IDSach__2F10007B" FromRole="Sach" ToRole="Muon" />
+    <NavigationProperty Name="MuonTras" Relationship="Self.FK__MuonTra__IDSach__2B3F6F97" FromRole="Sach" ToRole="MuonTra" />
+  </EntityType>
+  <Association Name="FK__Muon__IDDocGia__300424B4">
+    <End Role="DocGia" Type="Self.DocGia" Multiplicity="1" />
+    <End Role="Muon" Type="Self.Muon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DocGia">
+        <PropertyRef Name="IDDocGia" />
+      </Principal>
+      <Dependent Role="Muon">
+        <PropertyRef Name="IDDocGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MuonTra__IDDocGi__2C3393D0">
+    <End Role="DocGia" Type="Self.DocGia" Multiplicity="1" />
+    <End Role="MuonTra" Type="Self.MuonTra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DocGia">
+        <PropertyRef Name="IDDocGia" />
+      </Principal>
+      <Dependent Role="MuonTra">
+        <PropertyRef Name="IDDocGia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Muon__IDSach__2F10007B">
+    <End Role="Sach" Type="Self.Sach" Multiplicity="1" />
+    <End Role="Muon" Type="Self.Muon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sach">
+        <PropertyRef Name="IDSach" />
+      </Principal>
+      <Dependent Role="Muon">
+        <PropertyRef Name="IDSach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MuonTra__IDSach__2B3F6F97">
+    <End Role="Sach" Type="Self.Sach" Multiplicity="1" />
+    <End Role="MuonTra" Type="Self.MuonTra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sach">
+        <PropertyRef Name="IDSach" />
+      </Principal>
+      <Dependent Role="MuonTra">
+        <PropertyRef Name="IDSach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MUONSACH" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DocGias" EntityType="Self.DocGia" />
+    <EntitySet Name="Muons" EntityType="Self.Muon" />
+    <EntitySet Name="MuonTras" EntityType="Self.MuonTra" />
+    <EntitySet Name="QuanLis" EntityType="Self.QuanLi" />
+    <EntitySet Name="Saches" EntityType="Self.Sach" />
+    <AssociationSet Name="FK__Muon__IDDocGia__300424B4" Association="Self.FK__Muon__IDDocGia__300424B4">
+      <End Role="DocGia" EntitySet="DocGias" />
+      <End Role="Muon" EntitySet="Muons" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MuonTra__IDDocGi__2C3393D0" Association="Self.FK__MuonTra__IDDocGi__2C3393D0">
+      <End Role="DocGia" EntitySet="DocGias" />
+      <End Role="MuonTra" EntitySet="MuonTras" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Muon__IDSach__2F10007B" Association="Self.FK__Muon__IDSach__2F10007B">
+      <End Role="Sach" EntitySet="Saches" />
+      <End Role="Muon" EntitySet="Muons" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MuonTra__IDSach__2B3F6F97" Association="Self.FK__MuonTra__IDSach__2B3F6F97">
+      <End Role="Sach" EntitySet="Saches" />
+      <End Role="MuonTra" EntitySet="MuonTras" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
