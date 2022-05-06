@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLTHUVIEN">
+  <DataContextMoniker Name="/QLTHUVIENDataContext" />
+  <nestedChildShapes>
+    <classShape Id="96ac1478-b71e-4c01-a279-a58ba2a2879c" absoluteBounds="2.625, 1.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLTHUVIENDataContext/Sach" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44abedea-d72e-43c5-800e-3bbd4d527b3b" absoluteBounds="2.64, 1.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d15aeda9-7205-455a-baf6-347161617830" absoluteBounds="5.125, 1.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QLTHUVIENDataContext/TacGia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2a00c626-2e62-472b-9dd1-73097f0b71bf" absoluteBounds="5.14, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 2.19314697265625); (4.625 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLTHUVIENDataContext/TacGia/TacGia_Sach" />
+      <nodes>
+        <classShapeMoniker Id="d15aeda9-7205-455a-baf6-347161617830" />
+        <classShapeMoniker Id="96ac1478-b71e-4c01-a279-a58ba2a2879c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

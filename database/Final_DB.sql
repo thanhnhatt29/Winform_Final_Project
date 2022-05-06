@@ -1,4 +1,5 @@
-
+drop database QLTHUVIEN
+Go
 create database QLTHUVIEN
 go 
 
@@ -31,7 +32,7 @@ go
 
 
 create table QuanLy(
-	MaNhanVien char(4) primary key,
+	MaNhanVien char(10) primary key,
 	TenNhanVien nchar(50) not null,
 	NgaySinh date,
 	SDT char(10) not null,
@@ -55,7 +56,7 @@ create table MuonTra(
 	MaMuonTra int identity (1,1) primary key,
 	MaSach char(4) references Sach(MaSach),
 	SoThe int references TheThuVien(SoThe),
-	MaNhanVien char(4) references QuanLy(MaNhanVien),
+	MaNhanVien char(10) references QuanLy(MaNhanVien),
 	NgayMuon date not null,
 	GhiChu nchar(100),
 	Da_Tra bit default(0),
