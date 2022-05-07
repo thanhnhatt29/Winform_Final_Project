@@ -81,6 +81,7 @@
     <Compile Include="QuanLy.cs">
       <DependentUpon>LibraryModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="ReaderDAL.cs" />
     <Compile Include="Sach.cs">
       <DependentUpon>LibraryModel.tt</DependentUpon>
     </Compile>

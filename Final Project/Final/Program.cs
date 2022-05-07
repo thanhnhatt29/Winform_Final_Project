@@ -18,6 +18,7 @@ namespace Final
             Application.SetCompatibleTextRenderingDefault(false);
             LogIn log = new LogIn();
             /*BookManage manage=new BookManage();*/
+            //MenuSelect log = new MenuSelect();
             Application.Run(log);
 
         }

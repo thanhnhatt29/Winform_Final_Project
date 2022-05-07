@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using TG;
 
-namespace TG
+namespace Final
 {
-    public partial class Form1 : Form
+    public partial class AuthorManage : Form
     {
-        public Form1()
+        public AuthorManage()
         {
             InitializeComponent();
         }

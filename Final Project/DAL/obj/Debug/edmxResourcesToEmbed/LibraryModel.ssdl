@@ -16,7 +16,7 @@
     <Property Name="MaMuonTra" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="MaSach" Type="char" MaxLength="4" />
     <Property Name="SoThe" Type="int" />
-    <Property Name="MaNhanVien" Type="char" MaxLength="4" />
+    <Property Name="MaNhanVien" Type="varchar" MaxLength="10" />
     <Property Name="NgayMuon" Type="date" Nullable="false" />
     <Property Name="GhiChu" Type="nchar" MaxLength="100" />
     <Property Name="Da_Tra" Type="bit" />
@@ -26,11 +26,11 @@
     <Key>
       <PropertyRef Name="MaNhanVien" />
     </Key>
-    <Property Name="MaNhanVien" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="MaNhanVien" Type="varchar" MaxLength="10" Nullable="false" />
     <Property Name="TenNhanVien" Type="nchar" MaxLength="50" Nullable="false" />
     <Property Name="NgaySinh" Type="date" />
     <Property Name="SDT" Type="char" MaxLength="10" Nullable="false" />
-    <Property Name="MatKhau" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="MatKhau" Type="varchar" MaxLength="10" Nullable="false" />
   </EntityType>
   <EntityType Name="Sach">
     <Key>

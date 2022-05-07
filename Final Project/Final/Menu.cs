@@ -54,5 +54,11 @@ namespace Final
             logIn.Show();
 
         }
+
+        private void Author_Click(object sender, EventArgs e)
+        {
+            AuthorManage authorManage = new AuthorManage();
+            authorManage.ShowDialog();
+        }
     }
 }

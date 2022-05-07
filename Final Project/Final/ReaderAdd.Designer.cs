@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Phone = new System.Windows.Forms.TextBox();
+            this.ReaderPhone = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.IDCard = new System.Windows.Forms.TextBox();
+            this.ReaderAdr = new System.Windows.Forms.TextBox();
             this.ReaderName = new System.Windows.Forms.TextBox();
             this.ReaderID = new System.Windows.Forms.TextBox();
             this.buttonAddR = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Phone
+            // ReaderPhone
             // 
-            this.Phone.Location = new System.Drawing.Point(169, 236);
-            this.Phone.Name = "Phone";
-            this.Phone.Size = new System.Drawing.Size(411, 22);
-            this.Phone.TabIndex = 16;
+            this.ReaderPhone.Location = new System.Drawing.Point(169, 236);
+            this.ReaderPhone.Name = "ReaderPhone";
+            this.ReaderPhone.Size = new System.Drawing.Size(411, 22);
+            this.ReaderPhone.TabIndex = 16;
             // 
             // label4
             // 
@@ -61,9 +61,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(54, 197);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 16);
+            this.label3.Size = new System.Drawing.Size(50, 16);
             this.label3.TabIndex = 14;
-            this.label3.Text = "CMND";
+            this.label3.Text = "Dia Chi";
             // 
             // label2
             // 
@@ -83,12 +83,12 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Ma Doc gia";
             // 
-            // IDCard
+            // ReaderAdr
             // 
-            this.IDCard.Location = new System.Drawing.Point(169, 191);
-            this.IDCard.Name = "IDCard";
-            this.IDCard.Size = new System.Drawing.Size(411, 22);
-            this.IDCard.TabIndex = 11;
+            this.ReaderAdr.Location = new System.Drawing.Point(169, 191);
+            this.ReaderAdr.Name = "ReaderAdr";
+            this.ReaderAdr.Size = new System.Drawing.Size(411, 22);
+            this.ReaderAdr.TabIndex = 11;
             // 
             // ReaderName
             // 
@@ -125,17 +125,18 @@
             // 
             // ReaderAdd
             // 
+            this.AcceptButton = this.buttonAddR;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(637, 361);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonAddR);
-            this.Controls.Add(this.Phone);
+            this.Controls.Add(this.ReaderPhone);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.IDCard);
+            this.Controls.Add(this.ReaderAdr);
             this.Controls.Add(this.ReaderName);
             this.Controls.Add(this.ReaderID);
             this.Name = "ReaderAdd";
@@ -147,12 +148,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Phone;
+        private System.Windows.Forms.TextBox ReaderPhone;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox IDCard;
+        private System.Windows.Forms.TextBox ReaderAdr;
         private System.Windows.Forms.TextBox ReaderName;
         private System.Windows.Forms.TextBox ReaderID;
         private System.Windows.Forms.Button buttonAddR;

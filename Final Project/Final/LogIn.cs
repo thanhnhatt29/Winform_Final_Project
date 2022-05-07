@@ -78,6 +78,7 @@ namespace Final
 
                     menuSelect.label1.Text = "Chào " + UNameBox.Text;
                     menuSelect.Show();
+                    this.Hide();
                 }
                 else
                 {
