@@ -50,3 +50,5 @@ D:\UTE College\program\winform\GITHUB\Final Project\DAL\obj\Debug\DAL.csproj.Cor
 D:\UTE College\program\winform\GITHUB\Final Project\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\UTE College\program\winform\GITHUB\Final Project\DAL\obj\Debug\DAL.dll
 D:\UTE College\program\winform\GITHUB\Final Project\DAL\obj\Debug\DAL.pdb
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\DTO.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\bin\Debug\DTO.pdb

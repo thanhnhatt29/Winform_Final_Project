@@ -23,7 +23,7 @@ namespace Final
             LoadBook();
             buttonDo.Enabled = false;
             buttonCancel.Enabled = false;  
-            BookBLL bookBLL = new BookBLL();
+            /*BookBLL bookBLL = new BookBLL();*/
             
             //Genre.DisplayMember = "TenTheLoai";
 
@@ -244,6 +244,11 @@ namespace Final
         private void buttonShow_Click(object sender, EventArgs e)
         {
             LoadBook();
+        }
+
+        private void Author_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -57,3 +57,5 @@ D:\UTE College\program\winform\GITHUB\Final Project\BLL\obj\Debug\BLL.csproj.Cor
 D:\UTE College\program\winform\GITHUB\Final Project\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\UTE College\program\winform\GITHUB\Final Project\BLL\obj\Debug\BLL.dll
 D:\UTE College\program\winform\GITHUB\Final Project\BLL\obj\Debug\BLL.pdb
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\BLL\bin\Debug\DTO.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\BLL\bin\Debug\DTO.pdb

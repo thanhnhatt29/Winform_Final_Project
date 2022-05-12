@@ -76,9 +76,13 @@ namespace Final
                 {
                     MenuSelect menuSelect = new MenuSelect();
 
-                    menuSelect.label1.Text = "Chào " + UNameBox.Text;
+                    
+                    //menuSelect.Message=UNameBox.Text;
+                    //menuSelect.label1.Text = "Chào " + menuSelect;
+                    menuSelect.hidname = UNameBox.Text;
                     menuSelect.Show();
-                    this.Hide();
+                    //this.Hide();
+                    
                 }
                 else
                 {

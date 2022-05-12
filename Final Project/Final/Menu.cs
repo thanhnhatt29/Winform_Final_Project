@@ -12,17 +12,25 @@ namespace Final
 {
     public partial class MenuSelect : Form
     {
+        
         public MenuSelect()
         {
             InitializeComponent();
+            label1.Text = hidname;
+            
         }
+        public string hidname;
         void Log()
         {
             LogIn logIn = new LogIn();
             logIn.Show();
         }
 
-        
+        /*public MenuSelect (string Message):this()
+        {
+            hidname = Message;
+            label1.Text = hidname;
+        }*/
 
         private void Book_Click(object sender, EventArgs e)
         {
@@ -44,7 +52,12 @@ namespace Final
 
         private void User_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Underdevelopment");
+            //MessageBox.Show("Underdevelopment");
+            UserDetail userDetail = new UserDetail(hidname);
+            //userDetail.user = label1.Text;
+            MessageBox.Show(hidname);
+            userDetail.ShowDialog();
+
         }
 
         private void Quit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

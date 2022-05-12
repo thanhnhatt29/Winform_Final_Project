@@ -312,6 +312,7 @@ namespace Final
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonAdd);
+            this.MaximizeBox = false;
             this.Name = "BookManage";
             this.Text = "BookManage";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridBook)).EndInit();

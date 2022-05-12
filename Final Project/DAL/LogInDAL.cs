@@ -52,6 +52,55 @@ namespace DAL
 
             }
         }
+
+        public QuanLy getInfoDAL(string user)
+        {
+            string b = user;
+            
+            using(QLTHUVIENEntities db = new QLTHUVIENEntities())
+            {
+
+                //List<QuanLy> list = new List<QuanLy>();
+                /*QuanLy acc=new QuanLy();
+                *//*var table = from c in db.QuanLies
+                       select c;
+                foreach (var i in table)
+                {
+                    if(user==i.MaNhanVien.TrimEnd())
+                    {
+                        acc = i;
+                        return acc;
+                    }
+                }*/
+                QuanLy acc = db.QuanLies.Find(user);
+                
+                return acc;
+
+            }
+        }
+
+        public void EditDAL(string user, string name, string phone, string pass, DateTime dob)
+        {
+            using (QLTHUVIENEntities db = new QLTHUVIENEntities())
+            {
+                QuanLy acc = db.QuanLies.Find(user);
+                acc.TenNhanVien = name;
+                acc.SDT = phone;
+                acc.MatKhau = pass;
+                acc.NgaySinh = dob;
+
+                db.SaveChanges();
+            }
+        }
+
+        public void DelDAL(string user)
+        {
+            using (QLTHUVIENEntities db = new QLTHUVIENEntities())
+            {
+                db.QuanLies.Remove(db.QuanLies.Where(p=>p.MaNhanVien==user).SingleOrDefault());
+                db.SaveChanges();
+            }
+        }
     }
 
     

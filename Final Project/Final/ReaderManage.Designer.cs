@@ -204,6 +204,7 @@
             this.Controls.Add(this.dataGridViewReader);
             this.Controls.Add(this.buttonFind);
             this.Controls.Add(this.buttonUnFind);
+            this.MaximizeBox = false;
             this.Name = "ReaderManage";
             this.Text = "ReaderManage";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewReader)).EndInit();

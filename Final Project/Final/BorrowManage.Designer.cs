@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataBook = new System.Windows.Forms.DataGridView();
+            this.dataBorrow = new System.Windows.Forms.DataGridView();
             this.buttonBorrow = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,29 +37,29 @@
             this.buttonGiveBack = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataBook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataBorrow)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dataBook
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 40);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(481, 270);
-            this.dataGridView1.TabIndex = 0;
+            this.dataBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataBook.Location = new System.Drawing.Point(12, 40);
+            this.dataBook.Name = "dataBook";
+            this.dataBook.RowHeadersWidth = 51;
+            this.dataBook.RowTemplate.Height = 24;
+            this.dataBook.Size = new System.Drawing.Size(481, 270);
+            this.dataBook.TabIndex = 0;
             // 
-            // dataGridView2
+            // dataBorrow
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(499, 40);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(349, 270);
-            this.dataGridView2.TabIndex = 1;
+            this.dataBorrow.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataBorrow.Location = new System.Drawing.Point(499, 40);
+            this.dataBorrow.Name = "dataBorrow";
+            this.dataBorrow.RowHeadersWidth = 51;
+            this.dataBorrow.RowTemplate.Height = 24;
+            this.dataBorrow.Size = new System.Drawing.Size(349, 270);
+            this.dataBorrow.TabIndex = 1;
             // 
             // buttonBorrow
             // 
@@ -134,12 +134,13 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonBorrow);
-            this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataBorrow);
+            this.Controls.Add(this.dataBook);
+            this.MaximizeBox = false;
             this.Name = "BorrowManage";
             this.Text = "BorrowManage";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataBook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataBorrow)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,8 +148,8 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dataBook;
+        private System.Windows.Forms.DataGridView dataBorrow;
         private System.Windows.Forms.Button buttonBorrow;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;

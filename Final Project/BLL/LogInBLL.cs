@@ -30,5 +30,22 @@ namespace BLL
             return log.SignInDAL(user, name, phone, pass,dob);
         }
 
+        public QuanLy InfoBLL(string user)
+        {
+            string b = user;
+            QuanLy acc = new QuanLy();
+            acc = log.getInfoDAL(user);
+            return acc;
+        }
+
+        public void EditBLL(string user, string name, string phone, string pass, DateTime dob)
+        {
+            log.EditDAL(user, name, phone, pass,dob);
+        }
+
+        public void DelBLL(string user)
+        {
+            log.DelDAL(user);
+        }
     }
 }

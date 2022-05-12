@@ -147,3 +147,8 @@ D:\UTE College\program\winform\GITHUB\Final Project\Final\bin\Debug\EntityFramew
 D:\UTE College\program\winform\GITHUB\Final Project\Final\bin\Debug\EntityFramework.SqlServer.xml
 D:\UTE College\program\winform\GITHUB\Final Project\Final\obj\Debug\Final.csproj.CopyComplete
 D:\UTE College\program\winform\GITHUB\Final Project\Final\obj\Debug\Final.AuthorManage.resources
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\bin\Debug\DTO.dll
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\bin\Debug\DTO.pdb
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.AuthorManage.resources
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.UserDetail.resources
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.csproj.SuggestedBindingRedirects.cache

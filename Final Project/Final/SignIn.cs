@@ -70,7 +70,8 @@ namespace Final
                 }
                 
             }*/
-            if(UNameBox.Text !=""&&PasswordBox.Text !=""&& PasswordBox.Text==ConfirmBox.Text)
+
+            if(UNameBox.Text !=""&&PasswordBox.Text !=""&& PasswordBox.Text==ConfirmBox.Text && PhoneBox.Text.StartsWith("0") && PhoneBox.Text.Length==10)
             {
                 LogInBLL logInBLL = new LogInBLL();
                 if(logInBLL.SignInBLL(UNameBox.Text,NameBox.Text,PhoneBox.Text,PasswordBox.Text,dateOBirth.Value))
