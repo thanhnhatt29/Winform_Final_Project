@@ -35,6 +35,7 @@
             this.User = new System.Windows.Forms.Button();
             this.Quit = new System.Windows.Forms.LinkLabel();
             this.Author = new System.Windows.Forms.Button();
+            this.Card = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -108,11 +109,22 @@
             this.Author.UseVisualStyleBackColor = true;
             this.Author.Click += new System.EventHandler(this.Author_Click);
             // 
+            // Card
+            // 
+            this.Card.Location = new System.Drawing.Point(595, 187);
+            this.Card.Name = "Card";
+            this.Card.Size = new System.Drawing.Size(175, 76);
+            this.Card.TabIndex = 7;
+            this.Card.Text = "Card Manage";
+            this.Card.UseVisualStyleBackColor = true;
+            this.Card.Click += new System.EventHandler(this.Card_Click);
+            // 
             // MenuSelect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Card);
             this.Controls.Add(this.Author);
             this.Controls.Add(this.Quit);
             this.Controls.Add(this.User);
@@ -138,5 +150,6 @@
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel Quit;
         private System.Windows.Forms.Button Author;
+        private System.Windows.Forms.Button Card;
     }
 }

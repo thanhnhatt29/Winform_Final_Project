@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookDAL.cs" />
+    <Compile Include="CardDAL.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="DocGia.cs">
       <DependentUpon>LibraryModel.tt</DependentUpon>

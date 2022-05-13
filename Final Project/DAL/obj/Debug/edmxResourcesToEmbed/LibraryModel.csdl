@@ -68,8 +68,8 @@
     <Property Name="NgayBatDau" Type="DateTime" Precision="0" />
     <Property Name="NgayHetHan" Type="DateTime" Precision="0" />
     <Property Name="GhiChu" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
-    <NavigationProperty Name="DocGia" Relationship="Self.FK__TheThuVie__MaDoc__286302EC" FromRole="TheThuVien" ToRole="DocGia" />
-    <NavigationProperty Name="MuonTras" Relationship="Self.FK__MuonTra__SoThe__30F848ED" FromRole="TheThuVien" ToRole="MuonTra" />
+    <NavigationProperty Name="DocGia" Relationship="Self.FK__TheThuVie__MaDoc__286302EC" FromRole="TheThuVien" ToRole="DocGia" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:GetterAccess="Private" />
+    <NavigationProperty Name="MuonTras" Relationship="Self.FK__MuonTra__SoThe__30F848ED" FromRole="TheThuVien" ToRole="MuonTra" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:SetterAccess="Private" />
   </EntityType>
   <Association Name="FK__TheThuVie__MaDoc__286302EC">
     <End Role="DocGia" Type="Self.DocGia" Multiplicity="0..1" />

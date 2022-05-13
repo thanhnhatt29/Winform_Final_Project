@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\UTE College\program\winform\GITHUB\Final Project\DAL\LibraryModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\DAL\LibraryModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

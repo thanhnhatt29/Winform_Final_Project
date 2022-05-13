@@ -73,5 +73,11 @@ namespace Final
             AuthorManage authorManage = new AuthorManage();
             authorManage.ShowDialog();
         }
+
+        private void Card_Click(object sender, EventArgs e)
+        {
+            Card card = new Card();
+            card.ShowDialog();
+        }
     }
 }

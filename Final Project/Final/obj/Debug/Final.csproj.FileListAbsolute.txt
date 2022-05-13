@@ -152,3 +152,4 @@ C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\F
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.AuthorManage.resources
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.UserDetail.resources
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.csproj.SuggestedBindingRedirects.cache
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.Card.resources

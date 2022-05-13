@@ -26,8 +26,8 @@ namespace DAL
         public Nullable<System.DateTime> NgayHetHan { get; set; }
         public string GhiChu { get; set; }
     
-        public virtual DocGia DocGia { get; set; }
+        private DocGia DocGia { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MuonTra> MuonTras { get; set; }
+        private ICollection<MuonTra> MuonTras { get; set; }
     }
 }
