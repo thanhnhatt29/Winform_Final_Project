@@ -181,9 +181,9 @@
           <Property Name="GhiChu" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
           <Property Name="Da_Tra" Type="Boolean" />
           <Property Name="NgayTra" Type="DateTime" Precision="0" />
-          <NavigationProperty Name="QuanLy" Relationship="Self.FK__MuonTra__MaNhanV__31EC6D26" FromRole="MuonTra" ToRole="QuanLy" />
-          <NavigationProperty Name="Sach" Relationship="Self.FK__MuonTra__MaSach__300424B4" FromRole="MuonTra" ToRole="Sach" />
-          <NavigationProperty Name="TheThuVien" Relationship="Self.FK__MuonTra__SoThe__30F848ED" FromRole="MuonTra" ToRole="TheThuVien" />
+          <NavigationProperty Name="QuanLy" Relationship="Self.FK__MuonTra__MaNhanV__31EC6D26" FromRole="MuonTra" ToRole="QuanLy" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:SetterAccess="Private" />
+          <NavigationProperty Name="Sach" Relationship="Self.FK__MuonTra__MaSach__300424B4" FromRole="MuonTra" ToRole="Sach" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:SetterAccess="Private" />
+          <NavigationProperty Name="TheThuVien" Relationship="Self.FK__MuonTra__SoThe__30F848ED" FromRole="MuonTra" ToRole="TheThuVien" a:GetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:SetterAccess="Private" />
         </EntityType>
         <EntityType Name="QuanLy">
           <Key>

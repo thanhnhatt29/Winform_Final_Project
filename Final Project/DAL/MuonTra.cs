@@ -23,8 +23,8 @@ namespace DAL
         public Nullable<bool> Da_Tra { get; set; }
         public Nullable<System.DateTime> NgayTra { get; set; }
     
-        public virtual QuanLy QuanLy { get; set; }
-        public virtual Sach Sach { get; set; }
-        public virtual TheThuVien TheThuVien { get; set; }
+        private QuanLy QuanLy { get; set; }
+        private Sach Sach { get; set; }
+        private TheThuVien TheThuVien { get; set; }
     }
 }

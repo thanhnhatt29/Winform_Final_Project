@@ -36,15 +36,15 @@ insert into  Sach Values('MK1', N'Vận Mệnh Người Lính Tốt', 'JH',N'Ti�
 insert into  Sach Values('MK2', N'Con Chó Nhỏ Mang Giỏ Hoa Hồng', 'NNA',N'Lãng Mạn','2019','161B Ly Chinh Thang, TPHCM',8)
 insert into  Sach Values('MK3', N'Muôn Kiếp Nhân Sinh', 'NP',N'Triết Học','2017','So 24 Quang Trung, Ha Noi',6)
 insert into  Sach Values('MK4', N'Cộng Hòa Plato', 'PLT',N'Triết Học- Chính Trị','2018','35 Tran Quoc Toan, Ha Noi',2)
-insert into  Sach Values('MK5', N'Cây Chuối Non Đi Giày Xanh', 'NNA',N'Lãng Mạn','1921','175 Giang Vo, Ha Noi',1)
+insert into  Sach Values('MK5', N'Cây Chuối Non Đi Giày Xanh', 'NNA',N'Lãng Mạn','1921','175 Giang Vo, Ha Noi',0)
 go
 
-insert into MuonTra Values ('MK1',1,'HHN','2022-1-15',' ',1,'2022-10-30')
+insert into MuonTra Values ('MK1',1,'HHN','2022-1-15',' ',0, null)
 insert into MuonTra Values ('MK2',3,'NTD','2022-9-15',' ',1,'2022-10-30')
 insert into MuonTra Values ('MK1',1,'HHN','2022-1-15',' ',1,'2022-10-30')
 insert into MuonTra Values ('MK4',2,'TTN','2022-2-26',' ',1,'2022-11-5')
-insert into MuonTra Values ('MK4',2,'TTN','2022-4-15',' ',0,'2022-8-2')
-insert into MuonTra Values ('MK3',3,'NTD','2022-9-15',' ',1,'2022-10-30')
+insert into MuonTra Values ('MK4',2,'TTN','2022-4-15',' ',0, null)
+insert into MuonTra Values ('MK3',3,'NTD','2022-9-15',' ',0, null)
 go
 
 select * from TacGia

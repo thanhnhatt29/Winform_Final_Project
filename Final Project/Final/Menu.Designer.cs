@@ -50,7 +50,7 @@
             // 
             // Book
             // 
-            this.Book.Location = new System.Drawing.Point(188, 120);
+            this.Book.Location = new System.Drawing.Point(78, 136);
             this.Book.Name = "Book";
             this.Book.Size = new System.Drawing.Size(175, 76);
             this.Book.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // Reader
             // 
-            this.Reader.Location = new System.Drawing.Point(426, 120);
+            this.Reader.Location = new System.Drawing.Point(313, 136);
             this.Reader.Name = "Reader";
             this.Reader.Size = new System.Drawing.Size(175, 76);
             this.Reader.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // Borrow
             // 
-            this.Borrow.Location = new System.Drawing.Point(188, 255);
+            this.Borrow.Location = new System.Drawing.Point(78, 244);
             this.Borrow.Name = "Borrow";
             this.Borrow.Size = new System.Drawing.Size(175, 76);
             this.Borrow.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             // User
             // 
-            this.User.Location = new System.Drawing.Point(426, 255);
+            this.User.Location = new System.Drawing.Point(313, 244);
             this.User.Name = "User";
             this.User.Size = new System.Drawing.Size(175, 76);
             this.User.TabIndex = 4;
@@ -101,7 +101,7 @@
             // 
             // Author
             // 
-            this.Author.Location = new System.Drawing.Point(313, 187);
+            this.Author.Location = new System.Drawing.Point(546, 136);
             this.Author.Name = "Author";
             this.Author.Size = new System.Drawing.Size(175, 76);
             this.Author.TabIndex = 6;
@@ -111,7 +111,7 @@
             // 
             // Card
             // 
-            this.Card.Location = new System.Drawing.Point(595, 187);
+            this.Card.Location = new System.Drawing.Point(546, 244);
             this.Card.Name = "Card";
             this.Card.Size = new System.Drawing.Size(175, 76);
             this.Card.TabIndex = 7;

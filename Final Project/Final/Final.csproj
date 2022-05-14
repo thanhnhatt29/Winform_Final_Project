@@ -81,17 +81,23 @@
     <Compile Include="BookManage.Designer.cs">
       <DependentUpon>BookManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="BorrowManage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BorrowManage.Designer.cs">
-      <DependentUpon>BorrowManage.cs</DependentUpon>
-    </Compile>
     <Compile Include="AuthorManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AuthorManage.designer.cs">
       <DependentUpon>AuthorManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowAdd.designer.cs">
+      <DependentUpon>BorrowAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowManage.designer.cs">
+      <DependentUpon>BorrowManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Card.cs">
       <SubType>Form</SubType>
@@ -157,11 +163,14 @@
     <EmbeddedResource Include="BookManage.resx">
       <DependentUpon>BookManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BorrowManage.resx">
-      <DependentUpon>BorrowManage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AuthorManage.resx">
       <DependentUpon>AuthorManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowAdd.resx">
+      <DependentUpon>BorrowAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowManage.resx">
+      <DependentUpon>BorrowManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Card.resx">
       <DependentUpon>Card.cs</DependentUpon>

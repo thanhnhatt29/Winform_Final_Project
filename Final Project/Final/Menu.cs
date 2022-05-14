@@ -46,7 +46,7 @@ namespace Final
 
         private void Borrow_Click(object sender, EventArgs e)
         {
-            BorrowManage borrowManage = new BorrowManage();
+            BorrowManage borrowManage = new BorrowManage(hidname);
             borrowManage.ShowDialog();
         }
 
