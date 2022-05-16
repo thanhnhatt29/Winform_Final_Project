@@ -232,7 +232,7 @@ namespace Final
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(125, 205);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 17);
+            this.label4.Size = new System.Drawing.Size(53, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "Ghi Chú";
             // 
@@ -241,7 +241,7 @@ namespace Final
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(125, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 17);
+            this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 6;
             this.label3.Text = "Mã Tác Giả";
             // 
@@ -250,7 +250,7 @@ namespace Final
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(125, 117);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 17);
+            this.label2.Size = new System.Drawing.Size(82, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tên Tác Giả";
             // 
@@ -275,7 +275,7 @@ namespace Final
             this.txtTen.Size = new System.Drawing.Size(188, 22);
             this.txtTen.TabIndex = 2;
             // 
-            // Form1
+            // AuthorManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -284,7 +284,7 @@ namespace Final
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "AuthorManage";
             this.Text = "Q";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

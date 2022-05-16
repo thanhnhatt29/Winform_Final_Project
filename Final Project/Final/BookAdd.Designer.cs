@@ -44,7 +44,7 @@
             this.AddBook.Name = "AddBook";
             this.AddBook.Size = new System.Drawing.Size(148, 23);
             this.AddBook.TabIndex = 0;
-            this.AddBook.Text = "Them Sach";
+            this.AddBook.Text = "Thêm Sách";
             this.AddBook.UseVisualStyleBackColor = true;
             this.AddBook.Click += new System.EventHandler(this.AddBook_Click);
             // 
@@ -62,16 +62,16 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Ten Sach";
+            this.label1.Text = "Tên Sách";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(106, 149);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 16);
+            this.label3.Size = new System.Drawing.Size(60, 16);
             this.label3.TabIndex = 5;
-            this.label3.Text = "The loai";
+            this.label3.Text = "Thể Loại";
             // 
             // Genre
             // 
@@ -101,9 +101,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(106, 65);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 16);
+            this.label4.Size = new System.Drawing.Size(60, 16);
             this.label4.TabIndex = 9;
-            this.label4.Text = "IDSach";
+            this.label4.Text = "Mã Sách";
             // 
             // IDBook
             // 

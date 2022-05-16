@@ -54,13 +54,13 @@
             this.buttonBorrow.Name = "buttonBorrow";
             this.buttonBorrow.Size = new System.Drawing.Size(199, 54);
             this.buttonBorrow.TabIndex = 5;
-            this.buttonBorrow.Text = "Muon";
+            this.buttonBorrow.Text = "Mượn";
             this.buttonBorrow.UseVisualStyleBackColor = true;
             this.buttonBorrow.Click += new System.EventHandler(this.buttonBorrow_Click);
             // 
             // txbSoThe
             // 
-            this.txbSoThe.Location = new System.Drawing.Point(446, 17);
+            this.txbSoThe.Location = new System.Drawing.Point(472, 17);
             this.txbSoThe.Name = "txbSoThe";
             this.txbSoThe.Size = new System.Drawing.Size(389, 22);
             this.txbSoThe.TabIndex = 6;
@@ -69,11 +69,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(362, 20);
+            this.label1.Location = new System.Drawing.Point(403, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 7;
-            this.label1.Text = "So The";
+            this.label1.Text = "Số Thẻ";
             // 
             // buttonGiveBack
             // 
@@ -81,7 +81,7 @@
             this.buttonGiveBack.Name = "buttonGiveBack";
             this.buttonGiveBack.Size = new System.Drawing.Size(121, 54);
             this.buttonGiveBack.TabIndex = 9;
-            this.buttonGiveBack.Text = "Tra sach";
+            this.buttonGiveBack.Text = "Trả Sách";
             this.buttonGiveBack.UseVisualStyleBackColor = true;
             this.buttonGiveBack.Click += new System.EventHandler(this.buttonGiveBack_Click);
             // 
@@ -92,7 +92,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 16);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Danh sach Muon";
+            this.label3.Text = "Danh sách mượn";
             // 
             // cb_DaTra
             // 

@@ -7,19 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
+using DAL;
 
 namespace Final
 {
     public partial class MenuSelect : Form
     {
         
-        public MenuSelect()
+        public MenuSelect(string hidname)
         {
             InitializeComponent();
-            label1.Text = hidname;
-            
+            Greet.Text = "Chào " + GetUserName(hidname);
         }
         public string hidname;
+        public string GetUserName(string hidname)
+        {
+            LogInBLL logInBLL = new LogInBLL();
+            QuanLy Info = logInBLL.InfoBLL(hidname);
+            return Info.TenNhanVien.TrimEnd();
+        }
         void Log()
         {
             LogIn logIn = new LogIn();
@@ -55,7 +62,7 @@ namespace Final
             //MessageBox.Show("Underdevelopment");
             UserDetail userDetail = new UserDetail(hidname);
             //userDetail.user = label1.Text;
-            MessageBox.Show(hidname);
+            //MessageBox.Show(hidname);
             userDetail.ShowDialog();
 
         }
