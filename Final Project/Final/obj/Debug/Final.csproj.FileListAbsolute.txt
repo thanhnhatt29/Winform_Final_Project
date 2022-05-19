@@ -190,3 +190,4 @@ D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final\
 D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final\obj\Debug\Final.exe
 D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final\obj\Debug\Final.pdb
 D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final\obj\Debug\Final.BorrowAdd.resources
+C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Winform_Final_Project\Final Project\Final\obj\Debug\Final.BorrowAdd.resources

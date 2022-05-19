@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Regis_card = new System.Windows.Forms.Button();
+            this.Update_card = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCard)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,6 +54,7 @@
             this.dataGridCard.RowTemplate.Height = 24;
             this.dataGridCard.Size = new System.Drawing.Size(448, 162);
             this.dataGridCard.TabIndex = 2;
+            this.dataGridCard.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridCard_CellClick);
             // 
             // ReaderBox
             // 
@@ -90,11 +92,22 @@
             this.Regis_card.UseVisualStyleBackColor = true;
             this.Regis_card.Click += new System.EventHandler(this.Regis_card_Click);
             // 
+            // Update_card
+            // 
+            this.Update_card.Location = new System.Drawing.Point(184, 361);
+            this.Update_card.Name = "Update_card";
+            this.Update_card.Size = new System.Drawing.Size(125, 40);
+            this.Update_card.TabIndex = 7;
+            this.Update_card.Text = "Gia hạn";
+            this.Update_card.UseVisualStyleBackColor = true;
+            this.Update_card.Click += new System.EventHandler(this.Update_card_Click);
+            // 
             // Card
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 371);
+            this.ClientSize = new System.Drawing.Size(486, 425);
+            this.Controls.Add(this.Update_card);
             this.Controls.Add(this.Regis_card);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -116,5 +129,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Regis_card;
+        private System.Windows.Forms.Button Update_card;
     }
 }

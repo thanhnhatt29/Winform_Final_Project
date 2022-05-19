@@ -42,6 +42,7 @@ namespace DAL
         {
             using(QLTHUVIENEntities db = new QLTHUVIENEntities())
             {
+                
                 TheThuVien card = new TheThuVien();
                 card.MaDocGia = readerID;
                 card.NgayBatDau = DateTime.Today;
@@ -53,6 +54,26 @@ namespace DAL
                 return true;
             }
             
+        }
+
+        public void UpdateDAL(string readerID, string ps)
+        {
+            using(QLTHUVIENEntities db = new QLTHUVIENEntities())
+            {
+                var table = from c in  db.TheThuViens
+                            select c;
+
+                foreach( var t in table)
+                {
+                    if(t.MaDocGia.TrimEnd() == readerID)
+                    {
+                        t.NgayBatDau = DateTime.Today;
+                        t.NgayHetHan= DateTime.Today.AddYears(5);
+                        t.GhiChu = ps;
+                    }
+                }
+                db.SaveChanges();
+            }
         }
     }
 }
