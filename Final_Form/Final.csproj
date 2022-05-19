@@ -111,6 +111,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
@@ -127,6 +128,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3293466.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1144760.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2353441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3389081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32934661.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5773685.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3145866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0-library-center___media_library_original_1600_900.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\718323.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
