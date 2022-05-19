@@ -24,8 +24,17 @@ namespace Final
         void LoadData()
         {
             CardBLL cardBLL = new CardBLL();
-
-            dataGridCard.DataSource = cardBLL.LoadDataBLL();
+            List<TheThuVien> thuVienList = cardBLL.LoadDataBLL();
+            dataGridCard.DataSource = thuVienList;
+            foreach (var i in thuVienList)
+            {
+                if(i.NgayHetHan.Value<DateTime.Today)
+                {
+                    MessageBox.Show("Có thẻ hết hạn. Xin hãy cập nhật.");
+                    break;
+                }
+            }
+            
         }
 
         void LoadReader()
@@ -52,6 +61,13 @@ namespace Final
             }
             
         }
+
+        void Update(string ReaderID, string Note)
+        {
+            CardBLL cardBLL = new CardBLL();
+            cardBLL.UpdateBLL(ReaderID, Note);
+
+        }
         #endregion
 
         private void Regis_card_Click(object sender, EventArgs e)
@@ -59,5 +75,18 @@ namespace Final
             Register(ReaderBox.Text,textNote.Text);
             LoadData();
         }
+
+        private void dataGridCard_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ReaderBox.DataBindings.Clear();
+            ReaderBox.DataBindings.Add(new Binding("Text", dataGridCard.DataSource, "MaDocGia"));
+        }
+
+        private void Update_card_Click(object sender, EventArgs e)
+        {
+            Update(ReaderBox.Text.TrimEnd(), textNote.Text);
+            LoadData();
+        }
+
     }
 }

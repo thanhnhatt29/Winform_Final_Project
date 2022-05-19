@@ -74,7 +74,7 @@ namespace Final
             buttonDel.Enabled = true;
             buttonEdit.Enabled = true;
             buttonFind.Enabled = true;
-
+            
             buttonDo.Enabled = false;
             buttonCancel.Enabled = false;
         }
@@ -82,13 +82,21 @@ namespace Final
         void AddBook(string name, string id, string author, string genre, string amount, string location, string year,string authorname)
         {
             BookBLL bookBLL=new BookBLL();
+            
 
             if(!bookBLL.TacGiaBLL().Contains(author))
             {
                 bookBLL.AddAuthorBLL(author, authorname);
             }
 
-            bookBLL.AddBookBLL(name, id, author, genre, amount, location, year);
+            if(bookBLL.AddBookBLL(name, id, author, genre, amount, location, year))
+            {
+                MessageBox.Show("Thành công");
+            }
+            else
+            {
+                MessageBox.Show("Thất bại");
+            }    
             LoadBook();
         }
 

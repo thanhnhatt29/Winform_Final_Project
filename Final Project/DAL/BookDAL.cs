@@ -105,7 +105,7 @@ namespace DAL
                 var table=from c in db.TacGias select c;
                 foreach(var t in table)
                 {
-                    list.Add(t.MaTacGia);
+                    list.Add(t.MaTacGia.TrimEnd());
                 }
                 return list;
             }

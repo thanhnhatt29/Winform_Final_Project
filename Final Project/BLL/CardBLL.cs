@@ -38,5 +38,10 @@ namespace BLL
         {
             return cardDAL.AddCardDAL(readerID, ps);
         }
+
+        public void UpdateBLL(string readerID, string ps)
+        {
+            cardDAL.UpdateDAL(readerID, ps);
+        }
     }
 }
