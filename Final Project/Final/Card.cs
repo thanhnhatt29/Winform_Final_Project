@@ -87,6 +87,5 @@ namespace Final
             Update(ReaderBox.Text.TrimEnd(), textNote.Text);
             LoadData();
         }
-
     }
 }

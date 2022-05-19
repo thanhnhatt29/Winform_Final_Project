@@ -258,5 +258,15 @@ namespace Final
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hươngDânChungToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

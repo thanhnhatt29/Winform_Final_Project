@@ -54,12 +54,24 @@ namespace Final
             this.AuthorName = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Function = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.hươngDânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cacChưcNăngChinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thêmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xoaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sưaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hiênThiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hươngDânChungToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridBook)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(92, 416);
+            this.buttonAdd.Location = new System.Drawing.Point(323, 407);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(121, 54);
             this.buttonAdd.TabIndex = 4;
@@ -69,7 +81,7 @@ namespace Final
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(366, 416);
+            this.buttonEdit.Location = new System.Drawing.Point(597, 407);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(121, 54);
             this.buttonEdit.TabIndex = 5;
@@ -79,7 +91,7 @@ namespace Final
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(229, 416);
+            this.buttonDel.Location = new System.Drawing.Point(460, 407);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(121, 54);
             this.buttonDel.TabIndex = 6;
@@ -89,7 +101,7 @@ namespace Final
             // 
             // buttonFind
             // 
-            this.buttonFind.Location = new System.Drawing.Point(651, 413);
+            this.buttonFind.Location = new System.Drawing.Point(520, 472);
             this.buttonFind.Name = "buttonFind";
             this.buttonFind.Size = new System.Drawing.Size(121, 54);
             this.buttonFind.TabIndex = 7;
@@ -100,7 +112,7 @@ namespace Final
             // text
             // 
             this.text.AutoSize = true;
-            this.text.Location = new System.Drawing.Point(30, 385);
+            this.text.Location = new System.Drawing.Point(392, 263);
             this.text.Name = "text";
             this.text.Size = new System.Drawing.Size(60, 16);
             this.text.TabIndex = 17;
@@ -108,9 +120,9 @@ namespace Final
             // 
             // Amount
             // 
-            this.Amount.Location = new System.Drawing.Point(92, 385);
+            this.Amount.Location = new System.Drawing.Point(493, 257);
             this.Amount.Name = "Amount";
-            this.Amount.Size = new System.Drawing.Size(395, 22);
+            this.Amount.Size = new System.Drawing.Size(260, 22);
             this.Amount.TabIndex = 16;
             // 
             // Genre
@@ -122,15 +134,15 @@ namespace Final
             "kinh di",
             "hanh dong",
             "phieu luu"});
-            this.Genre.Location = new System.Drawing.Point(92, 339);
+            this.Genre.Location = new System.Drawing.Point(92, 354);
             this.Genre.Name = "Genre";
-            this.Genre.Size = new System.Drawing.Size(395, 24);
+            this.Genre.Size = new System.Drawing.Size(283, 24);
             this.Genre.TabIndex = 15;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 346);
+            this.label3.Location = new System.Drawing.Point(27, 361);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 14;
@@ -139,7 +151,7 @@ namespace Final
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 296);
+            this.label2.Location = new System.Drawing.Point(775, 257);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 16);
             this.label2.TabIndex = 12;
@@ -148,7 +160,7 @@ namespace Final
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(550, 247);
+            this.label1.Location = new System.Drawing.Point(27, 313);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 11;
@@ -156,40 +168,40 @@ namespace Final
             // 
             // BookName
             // 
-            this.BookName.Location = new System.Drawing.Point(651, 241);
+            this.BookName.Location = new System.Drawing.Point(92, 307);
             this.BookName.Name = "BookName";
-            this.BookName.Size = new System.Drawing.Size(373, 22);
+            this.BookName.Size = new System.Drawing.Size(283, 22);
             this.BookName.TabIndex = 10;
             // 
             // dataGridBook
             // 
             this.dataGridBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridBook.Location = new System.Drawing.Point(30, 12);
+            this.dataGridBook.Location = new System.Drawing.Point(30, 27);
             this.dataGridBook.Name = "dataGridBook";
             this.dataGridBook.RowHeadersWidth = 51;
             this.dataGridBook.RowTemplate.Height = 24;
-            this.dataGridBook.Size = new System.Drawing.Size(996, 195);
+            this.dataGridBook.Size = new System.Drawing.Size(1115, 195);
             this.dataGridBook.TabIndex = 9;
             this.dataGridBook.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridBook_CellDoubleClick);
             // 
             // BookID
             // 
-            this.BookID.Location = new System.Drawing.Point(92, 241);
+            this.BookID.Location = new System.Drawing.Point(92, 256);
             this.BookID.Name = "BookID";
-            this.BookID.Size = new System.Drawing.Size(395, 22);
+            this.BookID.Size = new System.Drawing.Size(283, 22);
             this.BookID.TabIndex = 18;
             // 
             // BookLocate
             // 
-            this.BookLocate.Location = new System.Drawing.Point(651, 291);
+            this.BookLocate.Location = new System.Drawing.Point(493, 304);
             this.BookLocate.Name = "BookLocate";
-            this.BookLocate.Size = new System.Drawing.Size(375, 22);
+            this.BookLocate.Size = new System.Drawing.Size(260, 22);
             this.BookLocate.TabIndex = 20;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 247);
+            this.label4.Location = new System.Drawing.Point(30, 262);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 16);
             this.label4.TabIndex = 21;
@@ -198,7 +210,7 @@ namespace Final
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(550, 297);
+            this.label5.Location = new System.Drawing.Point(392, 310);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 16);
             this.label5.TabIndex = 22;
@@ -206,15 +218,15 @@ namespace Final
             // 
             // Year
             // 
-            this.Year.Location = new System.Drawing.Point(651, 339);
+            this.Year.Location = new System.Drawing.Point(493, 352);
             this.Year.Name = "Year";
-            this.Year.Size = new System.Drawing.Size(375, 22);
+            this.Year.Size = new System.Drawing.Size(260, 22);
             this.Year.TabIndex = 23;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(550, 344);
+            this.label6.Location = new System.Drawing.Point(392, 357);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 16);
             this.label6.TabIndex = 24;
@@ -222,35 +234,37 @@ namespace Final
             // 
             // buttonCancel
             // 
-            this.buttonCancel.Location = new System.Drawing.Point(905, 413);
+            this.buttonCancel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonCancel.Location = new System.Drawing.Point(590, 532);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(121, 54);
             this.buttonCancel.TabIndex = 25;
             this.buttonCancel.Text = "Huỷ";
-            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.UseVisualStyleBackColor = false;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // buttonDo
             // 
-            this.buttonDo.Location = new System.Drawing.Point(778, 413);
+            this.buttonDo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonDo.Location = new System.Drawing.Point(463, 532);
             this.buttonDo.Name = "buttonDo";
             this.buttonDo.Size = new System.Drawing.Size(121, 54);
             this.buttonDo.TabIndex = 26;
             this.buttonDo.Text = "Tiến hành";
-            this.buttonDo.UseVisualStyleBackColor = true;
+            this.buttonDo.UseVisualStyleBackColor = false;
             this.buttonDo.Click += new System.EventHandler(this.buttonDo_Click);
             // 
             // Author
             // 
             this.Author.FormattingEnabled = true;
-            this.Author.Location = new System.Drawing.Point(92, 288);
+            this.Author.Location = new System.Drawing.Point(862, 249);
             this.Author.Name = "Author";
-            this.Author.Size = new System.Drawing.Size(395, 24);
+            this.Author.Size = new System.Drawing.Size(283, 24);
             this.Author.TabIndex = 27;
             // 
             // buttonShow
             // 
-            this.buttonShow.Location = new System.Drawing.Point(505, 413);
+            this.buttonShow.Location = new System.Drawing.Point(736, 404);
             this.buttonShow.Name = "buttonShow";
             this.buttonShow.Size = new System.Drawing.Size(121, 54);
             this.buttonShow.TabIndex = 28;
@@ -260,33 +274,121 @@ namespace Final
             // 
             // AuthorName
             // 
-            this.AuthorName.Location = new System.Drawing.Point(651, 385);
+            this.AuthorName.Location = new System.Drawing.Point(863, 305);
             this.AuthorName.Name = "AuthorName";
-            this.AuthorName.Size = new System.Drawing.Size(373, 22);
+            this.AuthorName.Size = new System.Drawing.Size(283, 22);
             this.AuthorName.TabIndex = 29;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(550, 390);
+            this.label7.Location = new System.Drawing.Point(775, 310);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 16);
             this.label7.TabIndex = 30;
             this.label7.Text = "Tên Tác Giả";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Function
             // 
-            this.Function.Location = new System.Drawing.Point(411, 210);
+            this.Function.Location = new System.Drawing.Point(557, 228);
             this.Function.Name = "Function";
-            this.Function.Size = new System.Drawing.Size(228, 23);
+            this.Function.Size = new System.Drawing.Size(116, 23);
             this.Function.TabIndex = 31;
             this.Function.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hươngDânToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1188, 28);
+            this.menuStrip1.TabIndex = 32;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // hươngDânToolStripMenuItem
+            // 
+            this.hươngDânToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cacChưcNăngChinhToolStripMenuItem,
+            this.hươngDânChungToolStripMenuItem});
+            this.hươngDânToolStripMenuItem.Name = "hươngDânToolStripMenuItem";
+            this.hươngDânToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.hươngDânToolStripMenuItem.Text = "Hướng dẫn";
+            // 
+            // cacChưcNăngChinhToolStripMenuItem
+            // 
+            this.cacChưcNăngChinhToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thêmToolStripMenuItem,
+            this.xoaToolStripMenuItem,
+            this.sưaToolStripMenuItem,
+            this.hiênThiToolStripMenuItem,
+            this.timToolStripMenuItem});
+            this.cacChưcNăngChinhToolStripMenuItem.Name = "cacChưcNăngChinhToolStripMenuItem";
+            this.cacChưcNăngChinhToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.cacChưcNăngChinhToolStripMenuItem.Text = "Các chức năng chính";
+            // 
+            // thêmToolStripMenuItem
+            // 
+            this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.thêmToolStripMenuItem.Text = "Thêm";
+            // 
+            // xoaToolStripMenuItem
+            // 
+            this.xoaToolStripMenuItem.Name = "xoaToolStripMenuItem";
+            this.xoaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.xoaToolStripMenuItem.Text = "Xóa";
+            // 
+            // sưaToolStripMenuItem
+            // 
+            this.sưaToolStripMenuItem.Name = "sưaToolStripMenuItem";
+            this.sưaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sưaToolStripMenuItem.Text = "Sửa";
+            // 
+            // hiênThiToolStripMenuItem
+            // 
+            this.hiênThiToolStripMenuItem.Name = "hiênThiToolStripMenuItem";
+            this.hiênThiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.hiênThiToolStripMenuItem.Text = "Hiển thị";
+            // 
+            // timToolStripMenuItem
+            // 
+            this.timToolStripMenuItem.Name = "timToolStripMenuItem";
+            this.timToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.timToolStripMenuItem.Text = "Tìm";
+            // 
+            // hươngDânChungToolStripMenuItem
+            // 
+            this.hươngDânChungToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem,
+            this.sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem});
+            this.hươngDânChungToolStripMenuItem.Name = "hươngDânChungToolStripMenuItem";
+            this.hươngDânChungToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.hươngDânChungToolStripMenuItem.Text = "Hướng dẫn chung";
+            this.hươngDânChungToolStripMenuItem.Click += new System.EventHandler(this.hươngDânChungToolStripMenuItem_Click);
+            // 
+            // sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem
+            // 
+            this.sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem.Name = "sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem";
+            this.sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem.Size = new System.Drawing.Size(712, 26);
+            this.sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem.Text = "Sử dụng các phím chức năng để tùy chỉnh chế độ";
+            // 
+            // sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem
+            // 
+            this.sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem.Name = "sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuIt" +
+    "em";
+            this.sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem.Size = new System.Drawing.Size(712, 26);
+            this.sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem.Text = "Sử dụng phím hành động \"Tiến hành\" để thực hiện chức năng. Phím \"Hủy" +
+    "\" để thoát chức năng";
             // 
             // BookManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1036, 482);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1188, 613);
             this.Controls.Add(this.Function);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.AuthorName);
@@ -312,10 +414,14 @@ namespace Final
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonAdd);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "BookManage";
             this.Text = "BookManage";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridBook)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -347,5 +453,16 @@ namespace Final
         private System.Windows.Forms.TextBox AuthorName;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label Function;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem hươngDânToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cacChưcNăngChinhToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thêmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xoaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sưaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hiênThiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem timToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hươngDânChungToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem;
     }
 }
