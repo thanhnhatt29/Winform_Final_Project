@@ -52,36 +52,36 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(54, 242);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 16);
+            this.label4.Size = new System.Drawing.Size(86, 16);
             this.label4.TabIndex = 15;
-            this.label4.Text = "So Dien thoai";
+            this.label4.Text = "Số Điện thoại";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(54, 197);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 16);
+            this.label3.Size = new System.Drawing.Size(49, 16);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Dia Chi";
+            this.label3.Text = "Địa Chỉ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(54, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 16);
+            this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Ten Doc gia";
+            this.label2.Text = "Tên Độc giả";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(54, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 16);
+            this.label1.Size = new System.Drawing.Size(75, 16);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Ma Doc gia";
+            this.label1.Text = "Mã Độc giả";
             // 
             // ReaderAdr
             // 
@@ -110,7 +110,7 @@
             this.buttonAddR.Name = "buttonAddR";
             this.buttonAddR.Size = new System.Drawing.Size(149, 31);
             this.buttonAddR.TabIndex = 17;
-            this.buttonAddR.Text = "Them";
+            this.buttonAddR.Text = "Thêm";
             this.buttonAddR.UseVisualStyleBackColor = true;
             this.buttonAddR.Click += new System.EventHandler(this.buttonAddR_Click);
             // 

@@ -77,27 +77,27 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(29, 314);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 16);
+            this.label1.Size = new System.Drawing.Size(75, 16);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Ma Doc gia";
+            this.label1.Text = "Mã Độc giả";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(29, 357);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 16);
+            this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Ten Doc gia";
+            this.label2.Text = "Tên Độc giả";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(29, 442);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 16);
+            this.label4.Size = new System.Drawing.Size(86, 16);
             this.label4.TabIndex = 7;
-            this.label4.Text = "So Dien thoai";
+            this.label4.Text = "Số Điện thoại";
             // 
             // ReaderPhone
             // 
@@ -112,7 +112,7 @@
             this.buttonFind.Name = "buttonFind";
             this.buttonFind.Size = new System.Drawing.Size(121, 62);
             this.buttonFind.TabIndex = 12;
-            this.buttonFind.Text = "Tim";
+            this.buttonFind.Text = "Tìm";
             this.buttonFind.UseVisualStyleBackColor = true;
             this.buttonFind.Click += new System.EventHandler(this.buttonFind_Click);
             // 
@@ -122,7 +122,7 @@
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(121, 62);
             this.buttonDel.TabIndex = 11;
-            this.buttonDel.Text = "Xoa";
+            this.buttonDel.Text = "Xoá";
             this.buttonDel.UseVisualStyleBackColor = true;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
@@ -143,7 +143,7 @@
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(121, 62);
             this.buttonAdd.TabIndex = 9;
-            this.buttonAdd.Text = "Them";
+            this.buttonAdd.Text = "Thêm";
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
@@ -152,9 +152,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(29, 397);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 16);
+            this.label3.Size = new System.Drawing.Size(49, 16);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Dia Chi";
+            this.label3.Text = "Địa Chỉ";
             // 
             // ReaderAdr
             // 
@@ -169,7 +169,7 @@
             this.buttonedit1.Name = "buttonedit1";
             this.buttonedit1.Size = new System.Drawing.Size(121, 62);
             this.buttonedit1.TabIndex = 14;
-            this.buttonedit1.Text = "Sua";
+            this.buttonedit1.Text = "Sửa";
             this.buttonedit1.UseVisualStyleBackColor = true;
             this.buttonedit1.Click += new System.EventHandler(this.buttonedit1_Click);
             // 

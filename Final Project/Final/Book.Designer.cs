@@ -61,20 +61,20 @@ namespace Final
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 307);
+            this.label1.Location = new System.Drawing.Point(17, 308);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Ten";
+            this.label1.Text = "Tên";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 351);
+            this.label2.Location = new System.Drawing.Point(14, 352);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 16);
+            this.label2.Size = new System.Drawing.Size(55, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Tac gia";
+            this.label2.Text = "Tác Giả";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Author
@@ -87,11 +87,11 @@ namespace Final
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 401);
+            this.label3.Location = new System.Drawing.Point(14, 402);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 16);
+            this.label3.Size = new System.Drawing.Size(60, 16);
             this.label3.TabIndex = 5;
-            this.label3.Text = "The loai";
+            this.label3.Text = "Thể Loại";
             // 
             // Genre
             // 
@@ -116,11 +116,11 @@ namespace Final
             // Amount
             // 
             this.Amount.AutoSize = true;
-            this.Amount.Location = new System.Drawing.Point(28, 440);
+            this.Amount.Location = new System.Drawing.Point(17, 441);
             this.Amount.Name = "Amount";
-            this.Amount.Size = new System.Drawing.Size(60, 16);
+            this.Amount.Size = new System.Drawing.Size(64, 16);
             this.Amount.TabIndex = 8;
-            this.Amount.Text = "So luong";
+            this.Amount.Text = "Số Lượng";
             // 
             // Book
             // 

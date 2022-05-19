@@ -81,20 +81,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(157, 71);
+            this.label3.Location = new System.Drawing.Point(113, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 16);
+            this.label3.Size = new System.Drawing.Size(89, 16);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Username";
+            this.label3.Text = "Mã Nhân viên";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(157, 200);
+            this.label2.Location = new System.Drawing.Point(113, 200);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 16);
+            this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Password";
+            this.label2.Text = "Mật khẩu";
             // 
             // PasswordBox
             // 
@@ -123,11 +123,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(157, 236);
+            this.label4.Location = new System.Drawing.Point(113, 236);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 16);
+            this.label4.Size = new System.Drawing.Size(119, 16);
             this.label4.TabIndex = 16;
-            this.label4.Text = "Confirm";
+            this.label4.Text = "Xác nhận mật khẩu";
             // 
             // ConfirmBox
             // 
@@ -147,20 +147,20 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(157, 171);
+            this.label5.Location = new System.Drawing.Point(113, 171);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 16);
+            this.label5.Size = new System.Drawing.Size(92, 16);
             this.label5.TabIndex = 20;
-            this.label5.Text = "Phone";
+            this.label5.Text = "Số Điện Thoại";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(157, 99);
+            this.label6.Location = new System.Drawing.Point(113, 99);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 16);
+            this.label6.Size = new System.Drawing.Size(64, 16);
             this.label6.TabIndex = 19;
-            this.label6.Text = "Name";
+            this.label6.Text = "Họ và tên";
             // 
             // NameBox
             // 
@@ -179,11 +179,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(157, 143);
+            this.label7.Location = new System.Drawing.Point(113, 143);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 16);
+            this.label7.Size = new System.Drawing.Size(69, 16);
             this.label7.TabIndex = 23;
-            this.label7.Text = "DoB";
+            this.label7.Text = "Ngày Sinh";
             // 
             // SignIn
             // 

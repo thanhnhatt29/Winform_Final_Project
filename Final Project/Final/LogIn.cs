@@ -74,7 +74,7 @@ namespace Final
                 LogInBLL logInBLL = new LogInBLL();
                 if (logInBLL.IsLoggedIn(UNameBox.Text, PasswordBox.Text))
                 {
-                    MenuSelect menuSelect = new MenuSelect();
+                    MenuSelect menuSelect = new MenuSelect(UNameBox.Text);
 
                     
                     //menuSelect.Message=UNameBox.Text;

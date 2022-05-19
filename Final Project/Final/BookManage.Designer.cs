@@ -63,7 +63,7 @@ namespace Final
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(121, 54);
             this.buttonAdd.TabIndex = 4;
-            this.buttonAdd.Text = "Them";
+            this.buttonAdd.Text = "Thêm";
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
@@ -73,7 +73,7 @@ namespace Final
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(121, 54);
             this.buttonEdit.TabIndex = 5;
-            this.buttonEdit.Text = "Sua";
+            this.buttonEdit.Text = "Sửa";
             this.buttonEdit.UseVisualStyleBackColor = true;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
@@ -83,7 +83,7 @@ namespace Final
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(121, 54);
             this.buttonDel.TabIndex = 6;
-            this.buttonDel.Text = "Xoa";
+            this.buttonDel.Text = "Xoá";
             this.buttonDel.UseVisualStyleBackColor = true;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
@@ -93,7 +93,7 @@ namespace Final
             this.buttonFind.Name = "buttonFind";
             this.buttonFind.Size = new System.Drawing.Size(121, 54);
             this.buttonFind.TabIndex = 7;
-            this.buttonFind.Text = "Tim";
+            this.buttonFind.Text = "Tìm";
             this.buttonFind.UseVisualStyleBackColor = true;
             this.buttonFind.Click += new System.EventHandler(this.buttonFind_Click);
             // 
@@ -104,7 +104,7 @@ namespace Final
             this.text.Name = "text";
             this.text.Size = new System.Drawing.Size(60, 16);
             this.text.TabIndex = 17;
-            this.text.Text = "So luong";
+            this.text.Text = "Số lượng";
             // 
             // Amount
             // 
@@ -134,7 +134,7 @@ namespace Final
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 14;
-            this.label3.Text = "The loai";
+            this.label3.Text = "Thể loại";
             // 
             // label2
             // 
@@ -143,7 +143,7 @@ namespace Final
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 16);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Tac gia";
+            this.label2.Text = "Tác giả";
             // 
             // label1
             // 
@@ -152,7 +152,7 @@ namespace Final
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Ten Sach";
+            this.label1.Text = "Tên Sách";
             // 
             // BookName
             // 
@@ -193,7 +193,7 @@ namespace Final
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 16);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Ma Sach";
+            this.label4.Text = "Mã Sách";
             // 
             // label5
             // 
@@ -202,7 +202,7 @@ namespace Final
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 16);
             this.label5.TabIndex = 22;
-            this.label5.Text = "Vi tri";
+            this.label5.Text = "Vị trí";
             // 
             // Year
             // 
@@ -218,7 +218,7 @@ namespace Final
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 16);
             this.label6.TabIndex = 24;
-            this.label6.Text = "Nam xuat ban";
+            this.label6.Text = "Năm xuất bản";
             // 
             // buttonCancel
             // 
@@ -226,7 +226,7 @@ namespace Final
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(121, 54);
             this.buttonCancel.TabIndex = 25;
-            this.buttonCancel.Text = "Huy";
+            this.buttonCancel.Text = "Huỷ";
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -236,7 +236,7 @@ namespace Final
             this.buttonDo.Name = "buttonDo";
             this.buttonDo.Size = new System.Drawing.Size(121, 54);
             this.buttonDo.TabIndex = 26;
-            this.buttonDo.Text = "Tien hanh";
+            this.buttonDo.Text = "Tiến hành";
             this.buttonDo.UseVisualStyleBackColor = true;
             this.buttonDo.Click += new System.EventHandler(this.buttonDo_Click);
             // 
@@ -254,7 +254,7 @@ namespace Final
             this.buttonShow.Name = "buttonShow";
             this.buttonShow.Size = new System.Drawing.Size(121, 54);
             this.buttonShow.TabIndex = 28;
-            this.buttonShow.Text = "Hien thi";
+            this.buttonShow.Text = "Hiển thị";
             this.buttonShow.UseVisualStyleBackColor = true;
             this.buttonShow.Click += new System.EventHandler(this.buttonShow_Click);
             // 
@@ -272,7 +272,7 @@ namespace Final
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 16);
             this.label7.TabIndex = 30;
-            this.label7.Text = "Ten Tac Gia";
+            this.label7.Text = "Tên Tác Giả";
             // 
             // Function
             // 

@@ -67,9 +67,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(18, 208);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 16);
+            this.label1.Size = new System.Drawing.Size(74, 16);
             this.label1.TabIndex = 4;
-            this.label1.Text = "ID Doc gia";
+            this.label1.Text = "Mã độc giả";
             // 
             // label2
             // 
@@ -78,7 +78,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 16);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Ghi chu";
+            this.label2.Text = "Ghi chú";
             // 
             // Regis_card
             // 
@@ -86,7 +86,7 @@
             this.Regis_card.Name = "Regis_card";
             this.Regis_card.Size = new System.Drawing.Size(125, 40);
             this.Regis_card.TabIndex = 6;
-            this.Regis_card.Text = "Dang ky";
+            this.Regis_card.Text = "Đăng ký";
             this.Regis_card.UseVisualStyleBackColor = true;
             this.Regis_card.Click += new System.EventHandler(this.Regis_card_Click);
             // 
