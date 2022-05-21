@@ -36,6 +36,8 @@
             this.Quit = new System.Windows.Forms.LinkLabel();
             this.Author = new System.Windows.Forms.Button();
             this.Card = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Greet
@@ -53,7 +55,7 @@
             // Book
             // 
             this.Book.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Book.Location = new System.Drawing.Point(78, 136);
+            this.Book.Location = new System.Drawing.Point(12, 12);
             this.Book.Name = "Book";
             this.Book.Size = new System.Drawing.Size(175, 76);
             this.Book.TabIndex = 1;
@@ -64,7 +66,7 @@
             // Reader
             // 
             this.Reader.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reader.Location = new System.Drawing.Point(313, 136);
+            this.Reader.Location = new System.Drawing.Point(602, 15);
             this.Reader.Name = "Reader";
             this.Reader.Size = new System.Drawing.Size(175, 76);
             this.Reader.TabIndex = 2;
@@ -75,7 +77,7 @@
             // Borrow
             // 
             this.Borrow.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Borrow.Location = new System.Drawing.Point(78, 244);
+            this.Borrow.Location = new System.Drawing.Point(12, 274);
             this.Borrow.Name = "Borrow";
             this.Borrow.Size = new System.Drawing.Size(175, 76);
             this.Borrow.TabIndex = 3;
@@ -86,7 +88,7 @@
             // User
             // 
             this.User.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.User.Location = new System.Drawing.Point(313, 244);
+            this.User.Location = new System.Drawing.Point(602, 274);
             this.User.Name = "User";
             this.User.Size = new System.Drawing.Size(175, 76);
             this.User.TabIndex = 4;
@@ -100,9 +102,9 @@
             this.Quit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quit.ForeColor = System.Drawing.Color.Bisque;
             this.Quit.LinkColor = System.Drawing.Color.Aqua;
-            this.Quit.Location = new System.Drawing.Point(309, 369);
+            this.Quit.Location = new System.Drawing.Point(269, 333);
             this.Quit.Name = "Quit";
-            this.Quit.Size = new System.Drawing.Size(189, 59);
+            this.Quit.Size = new System.Drawing.Size(228, 84);
             this.Quit.TabIndex = 5;
             this.Quit.TabStop = true;
             this.Quit.Text = "Trở về Đăng nhập";
@@ -112,7 +114,7 @@
             // Author
             // 
             this.Author.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Author.Location = new System.Drawing.Point(546, 136);
+            this.Author.Location = new System.Drawing.Point(12, 146);
             this.Author.Name = "Author";
             this.Author.Size = new System.Drawing.Size(175, 76);
             this.Author.TabIndex = 6;
@@ -123,7 +125,7 @@
             // Card
             // 
             this.Card.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Card.Location = new System.Drawing.Point(546, 244);
+            this.Card.Location = new System.Drawing.Point(613, 146);
             this.Card.Name = "Card";
             this.Card.Size = new System.Drawing.Size(175, 76);
             this.Card.TabIndex = 7;
@@ -131,12 +133,24 @@
             this.Card.UseVisualStyleBackColor = true;
             this.Card.Click += new System.EventHandler(this.Card_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Final.Properties.Resources._189254;
+            this.pictureBox1.Location = new System.Drawing.Point(450, 359);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(38, 37);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // MenuSelect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Final.Properties.Resources.books;
+            this.BackgroundImage = global::Final.Properties.Resources._0_library_center___media_library_original_1600_900;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Card);
             this.Controls.Add(this.Author);
             this.Controls.Add(this.Quit);
@@ -150,6 +164,7 @@
             this.Name = "MenuSelect";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -163,5 +178,6 @@
         private System.Windows.Forms.LinkLabel Quit;
         private System.Windows.Forms.Button Author;
         private System.Windows.Forms.Button Card;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
