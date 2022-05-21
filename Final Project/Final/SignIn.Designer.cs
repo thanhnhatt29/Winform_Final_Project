@@ -44,12 +44,14 @@
             this.NameBox = new System.Windows.Forms.TextBox();
             this.dateOBirth = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // linkLog
             // 
             this.linkLog.AutoSize = true;
-            this.linkLog.Location = new System.Drawing.Point(284, 343);
+            this.linkLog.Location = new System.Drawing.Point(309, 425);
             this.linkLog.Name = "linkLog";
             this.linkLog.Size = new System.Drawing.Size(124, 16);
             this.linkLog.TabIndex = 15;
@@ -60,7 +62,7 @@
             // ConcealPass
             // 
             this.ConcealPass.AutoSize = true;
-            this.ConcealPass.Location = new System.Drawing.Point(244, 256);
+            this.ConcealPass.Location = new System.Drawing.Point(269, 338);
             this.ConcealPass.Name = "ConcealPass";
             this.ConcealPass.Size = new System.Drawing.Size(130, 20);
             this.ConcealPass.TabIndex = 14;
@@ -70,7 +72,7 @@
             // 
             // butt_Sign
             // 
-            this.butt_Sign.Location = new System.Drawing.Point(267, 293);
+            this.butt_Sign.Location = new System.Drawing.Point(292, 375);
             this.butt_Sign.Name = "butt_Sign";
             this.butt_Sign.Size = new System.Drawing.Size(141, 37);
             this.butt_Sign.TabIndex = 13;
@@ -81,7 +83,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(113, 71);
+            this.label3.Location = new System.Drawing.Point(138, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 16);
             this.label3.TabIndex = 12;
@@ -90,7 +92,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(113, 200);
+            this.label2.Location = new System.Drawing.Point(138, 282);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 11;
@@ -98,7 +100,7 @@
             // 
             // PasswordBox
             // 
-            this.PasswordBox.Location = new System.Drawing.Point(244, 194);
+            this.PasswordBox.Location = new System.Drawing.Point(269, 276);
             this.PasswordBox.Name = "PasswordBox";
             this.PasswordBox.Size = new System.Drawing.Size(288, 22);
             this.PasswordBox.TabIndex = 10;
@@ -106,7 +108,7 @@
             // 
             // UNameBox
             // 
-            this.UNameBox.Location = new System.Drawing.Point(244, 65);
+            this.UNameBox.Location = new System.Drawing.Point(269, 147);
             this.UNameBox.Name = "UNameBox";
             this.UNameBox.Size = new System.Drawing.Size(288, 22);
             this.UNameBox.TabIndex = 9;
@@ -123,7 +125,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(113, 236);
+            this.label4.Location = new System.Drawing.Point(138, 318);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 16);
             this.label4.TabIndex = 16;
@@ -131,7 +133,7 @@
             // 
             // ConfirmBox
             // 
-            this.ConfirmBox.Location = new System.Drawing.Point(244, 230);
+            this.ConfirmBox.Location = new System.Drawing.Point(269, 312);
             this.ConfirmBox.Name = "ConfirmBox";
             this.ConfirmBox.Size = new System.Drawing.Size(288, 22);
             this.ConfirmBox.TabIndex = 17;
@@ -139,7 +141,7 @@
             // 
             // PhoneBox
             // 
-            this.PhoneBox.Location = new System.Drawing.Point(244, 165);
+            this.PhoneBox.Location = new System.Drawing.Point(269, 247);
             this.PhoneBox.Name = "PhoneBox";
             this.PhoneBox.Size = new System.Drawing.Size(288, 22);
             this.PhoneBox.TabIndex = 21;
@@ -147,7 +149,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(113, 171);
+            this.label5.Location = new System.Drawing.Point(138, 253);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 16);
             this.label5.TabIndex = 20;
@@ -156,7 +158,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(113, 99);
+            this.label6.Location = new System.Drawing.Point(138, 181);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(64, 16);
             this.label6.TabIndex = 19;
@@ -164,14 +166,14 @@
             // 
             // NameBox
             // 
-            this.NameBox.Location = new System.Drawing.Point(244, 93);
+            this.NameBox.Location = new System.Drawing.Point(269, 175);
             this.NameBox.Name = "NameBox";
             this.NameBox.Size = new System.Drawing.Size(288, 22);
             this.NameBox.TabIndex = 18;
             // 
             // dateOBirth
             // 
-            this.dateOBirth.Location = new System.Drawing.Point(244, 137);
+            this.dateOBirth.Location = new System.Drawing.Point(269, 219);
             this.dateOBirth.Name = "dateOBirth";
             this.dateOBirth.Size = new System.Drawing.Size(288, 22);
             this.dateOBirth.TabIndex = 22;
@@ -179,18 +181,29 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(113, 143);
+            this.label7.Location = new System.Drawing.Point(138, 225);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 16);
             this.label7.TabIndex = 23;
             this.label7.Text = "Ngày Sinh";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Final.Properties.Resources._3293466;
+            this.pictureBox1.Location = new System.Drawing.Point(292, 41);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(109, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 24;
+            this.pictureBox1.TabStop = false;
             // 
             // SignIn
             // 
             this.AcceptButton = this.butt_Sign;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 368);
+            this.ClientSize = new System.Drawing.Size(698, 486);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateOBirth);
             this.Controls.Add(this.PhoneBox);
@@ -211,6 +224,7 @@
             this.Name = "SignIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sign In";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +248,6 @@
         private System.Windows.Forms.TextBox NameBox;
         private System.Windows.Forms.DateTimePicker dateOBirth;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
