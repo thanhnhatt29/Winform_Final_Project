@@ -247,6 +247,24 @@
   <ItemGroup>
     <None Include="Resources\books.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\219983.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z3430786294749_ce797c89dcecec25b38c6497003e05b9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reader.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
