@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.PasswordBox = new System.Windows.Forms.TextBox();
             this.UNameBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.ConfirmBox = new System.Windows.Forms.TextBox();
             this.PhoneBox = new System.Windows.Forms.TextBox();
@@ -43,7 +44,6 @@
             this.NameBox = new System.Windows.Forms.TextBox();
             this.dateOBirth = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -51,10 +51,9 @@
             // linkLog
             // 
             this.linkLog.AutoSize = true;
-            this.linkLog.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLog.Location = new System.Drawing.Point(98, 626);
+            this.linkLog.Location = new System.Drawing.Point(309, 425);
             this.linkLog.Name = "linkLog";
-            this.linkLog.Size = new System.Drawing.Size(162, 23);
+            this.linkLog.Size = new System.Drawing.Size(124, 16);
             this.linkLog.TabIndex = 15;
             this.linkLog.TabStop = true;
             this.linkLog.Text = "Quay lại Đăng nhập";
@@ -63,10 +62,9 @@
             // ConcealPass
             // 
             this.ConcealPass.AutoSize = true;
-            this.ConcealPass.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConcealPass.Location = new System.Drawing.Point(42, 524);
+            this.ConcealPass.Location = new System.Drawing.Point(269, 338);
             this.ConcealPass.Name = "ConcealPass";
-            this.ConcealPass.Size = new System.Drawing.Size(170, 27);
+            this.ConcealPass.Size = new System.Drawing.Size(130, 20);
             this.ConcealPass.TabIndex = 14;
             this.ConcealPass.Text = "Hiển thị mật khẩu";
             this.ConcealPass.UseVisualStyleBackColor = true;
@@ -74,152 +72,129 @@
             // 
             // butt_Sign
             // 
-            this.butt_Sign.BackColor = System.Drawing.Color.BlueViolet;
-            this.butt_Sign.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butt_Sign.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.butt_Sign.Location = new System.Drawing.Point(102, 557);
+            this.butt_Sign.Location = new System.Drawing.Point(292, 375);
             this.butt_Sign.Name = "butt_Sign";
-            this.butt_Sign.Size = new System.Drawing.Size(158, 55);
+            this.butt_Sign.Size = new System.Drawing.Size(141, 37);
             this.butt_Sign.TabIndex = 13;
             this.butt_Sign.Text = "Đăng kí";
-            this.butt_Sign.UseVisualStyleBackColor = false;
+            this.butt_Sign.UseVisualStyleBackColor = true;
             this.butt_Sign.Click += new System.EventHandler(this.butt_Sign_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(39, 161);
+            this.label3.Location = new System.Drawing.Point(138, 153);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 23);
+            this.label3.Size = new System.Drawing.Size(89, 16);
             this.label3.TabIndex = 12;
             this.label3.Text = "Mã Nhân viên";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(39, 400);
+            this.label2.Location = new System.Drawing.Point(138, 282);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 23);
+            this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "Mật khẩu";
             // 
             // PasswordBox
             // 
-            this.PasswordBox.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PasswordBox.Location = new System.Drawing.Point(42, 426);
+            this.PasswordBox.Location = new System.Drawing.Point(269, 276);
             this.PasswordBox.Name = "PasswordBox";
-            this.PasswordBox.Size = new System.Drawing.Size(288, 30);
+            this.PasswordBox.Size = new System.Drawing.Size(288, 22);
             this.PasswordBox.TabIndex = 10;
             this.PasswordBox.UseSystemPasswordChar = true;
             // 
             // UNameBox
             // 
-            this.UNameBox.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UNameBox.Location = new System.Drawing.Point(42, 187);
+            this.UNameBox.Location = new System.Drawing.Point(269, 147);
             this.UNameBox.Name = "UNameBox";
-            this.UNameBox.Size = new System.Drawing.Size(288, 30);
+            this.UNameBox.Size = new System.Drawing.Size(288, 22);
             this.UNameBox.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(297, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(127, 42);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Đăng kí";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(39, 459);
+            this.label4.Location = new System.Drawing.Point(138, 318);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 23);
+            this.label4.Size = new System.Drawing.Size(119, 16);
             this.label4.TabIndex = 16;
             this.label4.Text = "Xác nhận mật khẩu";
             // 
             // ConfirmBox
             // 
-            this.ConfirmBox.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConfirmBox.Location = new System.Drawing.Point(42, 488);
+            this.ConfirmBox.Location = new System.Drawing.Point(269, 312);
             this.ConfirmBox.Name = "ConfirmBox";
-            this.ConfirmBox.Size = new System.Drawing.Size(288, 30);
+            this.ConfirmBox.Size = new System.Drawing.Size(288, 22);
             this.ConfirmBox.TabIndex = 17;
             this.ConfirmBox.UseSystemPasswordChar = true;
             // 
             // PhoneBox
             // 
-            this.PhoneBox.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhoneBox.Location = new System.Drawing.Point(42, 363);
+            this.PhoneBox.Location = new System.Drawing.Point(269, 247);
             this.PhoneBox.Name = "PhoneBox";
-            this.PhoneBox.Size = new System.Drawing.Size(288, 30);
+            this.PhoneBox.Size = new System.Drawing.Size(288, 22);
             this.PhoneBox.TabIndex = 21;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(41, 338);
+            this.label5.Location = new System.Drawing.Point(138, 253);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 23);
+            this.label5.Size = new System.Drawing.Size(92, 16);
             this.label5.TabIndex = 20;
             this.label5.Text = "Số Điện Thoại";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(39, 220);
+            this.label6.Location = new System.Drawing.Point(138, 181);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 23);
+            this.label6.Size = new System.Drawing.Size(64, 16);
             this.label6.TabIndex = 19;
             this.label6.Text = "Họ và tên";
             // 
             // NameBox
             // 
-            this.NameBox.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameBox.Location = new System.Drawing.Point(42, 246);
+            this.NameBox.Location = new System.Drawing.Point(269, 175);
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(288, 30);
+            this.NameBox.Size = new System.Drawing.Size(288, 22);
             this.NameBox.TabIndex = 18;
             // 
             // dateOBirth
             // 
-            this.dateOBirth.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateOBirth.Location = new System.Drawing.Point(42, 305);
+            this.dateOBirth.Location = new System.Drawing.Point(269, 219);
             this.dateOBirth.Name = "dateOBirth";
-            this.dateOBirth.Size = new System.Drawing.Size(288, 30);
+            this.dateOBirth.Size = new System.Drawing.Size(288, 22);
             this.dateOBirth.TabIndex = 22;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(39, 279);
+            this.label7.Location = new System.Drawing.Point(138, 225);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 23);
+            this.label7.Size = new System.Drawing.Size(69, 16);
             this.label7.TabIndex = 23;
             this.label7.Text = "Ngày Sinh";
             // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.BackColor = System.Drawing.Color.BlueViolet;
-            this.label8.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label8.Location = new System.Drawing.Point(-132, 0);
-            this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(796, 129);
-            this.label8.TabIndex = 105;
-            this.label8.Text = "Đăng ký";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.BlueViolet;
-            this.pictureBox1.Image = global::Final.Properties.Resources.signin;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
+            this.pictureBox1.Image = global::Final.Properties.Resources._3293466;
+            this.pictureBox1.Location = new System.Drawing.Point(292, 41);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 129);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 106;
+            this.pictureBox1.Size = new System.Drawing.Size(109, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
             // SignIn
@@ -227,8 +202,7 @@
             this.AcceptButton = this.butt_Sign;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(369, 658);
+            this.ClientSize = new System.Drawing.Size(698, 486);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateOBirth);
@@ -245,7 +219,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.PasswordBox);
             this.Controls.Add(this.UNameBox);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "SignIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -264,6 +238,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox PasswordBox;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox ConfirmBox;
         public System.Windows.Forms.TextBox UNameBox;
@@ -273,7 +248,6 @@
         private System.Windows.Forms.TextBox NameBox;
         private System.Windows.Forms.DateTimePicker dateOBirth;
         private System.Windows.Forms.Label label7;
-        public System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

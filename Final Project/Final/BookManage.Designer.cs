@@ -65,12 +65,20 @@ namespace Final
             this.hươngDânChungToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridBook)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonAdd
             // 
+            this.buttonAdd.Font = new System.Drawing.Font("Bahnschrift Condensed", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAdd.ForeColor = System.Drawing.Color.Lime;
             this.buttonAdd.Location = new System.Drawing.Point(323, 407);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(121, 54);
@@ -81,6 +89,8 @@ namespace Final
             // 
             // buttonEdit
             // 
+            this.buttonEdit.Font = new System.Drawing.Font("Bahnschrift Condensed", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEdit.ForeColor = System.Drawing.Color.Lime;
             this.buttonEdit.Location = new System.Drawing.Point(597, 407);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(121, 54);
@@ -91,6 +101,8 @@ namespace Final
             // 
             // buttonDel
             // 
+            this.buttonDel.Font = new System.Drawing.Font("Bahnschrift Condensed", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDel.ForeColor = System.Drawing.Color.Lime;
             this.buttonDel.Location = new System.Drawing.Point(460, 407);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(121, 54);
@@ -101,6 +113,8 @@ namespace Final
             // 
             // buttonFind
             // 
+            this.buttonFind.Font = new System.Drawing.Font("Bahnschrift Condensed", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFind.ForeColor = System.Drawing.Color.DarkTurquoise;
             this.buttonFind.Location = new System.Drawing.Point(520, 472);
             this.buttonFind.Name = "buttonFind";
             this.buttonFind.Size = new System.Drawing.Size(121, 54);
@@ -235,9 +249,10 @@ namespace Final
             // buttonCancel
             // 
             this.buttonCancel.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonCancel.Location = new System.Drawing.Point(590, 532);
+            this.buttonCancel.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCancel.Location = new System.Drawing.Point(603, 532);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(121, 54);
+            this.buttonCancel.Size = new System.Drawing.Size(150, 72);
             this.buttonCancel.TabIndex = 25;
             this.buttonCancel.Text = "Huỷ";
             this.buttonCancel.UseVisualStyleBackColor = false;
@@ -246,9 +261,10 @@ namespace Final
             // buttonDo
             // 
             this.buttonDo.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonDo.Location = new System.Drawing.Point(463, 532);
+            this.buttonDo.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDo.Location = new System.Drawing.Point(431, 532);
             this.buttonDo.Name = "buttonDo";
-            this.buttonDo.Size = new System.Drawing.Size(121, 54);
+            this.buttonDo.Size = new System.Drawing.Size(150, 72);
             this.buttonDo.TabIndex = 26;
             this.buttonDo.Text = "Tiến hành";
             this.buttonDo.UseVisualStyleBackColor = false;
@@ -264,6 +280,8 @@ namespace Final
             // 
             // buttonShow
             // 
+            this.buttonShow.Font = new System.Drawing.Font("Bahnschrift Condensed", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonShow.ForeColor = System.Drawing.Color.Lime;
             this.buttonShow.Location = new System.Drawing.Point(736, 404);
             this.buttonShow.Name = "buttonShow";
             this.buttonShow.Size = new System.Drawing.Size(121, 54);
@@ -332,31 +350,31 @@ namespace Final
             // thêmToolStripMenuItem
             // 
             this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.thêmToolStripMenuItem.Text = "Thêm";
             // 
             // xoaToolStripMenuItem
             // 
             this.xoaToolStripMenuItem.Name = "xoaToolStripMenuItem";
-            this.xoaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.xoaToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.xoaToolStripMenuItem.Text = "Xóa";
             // 
             // sưaToolStripMenuItem
             // 
             this.sưaToolStripMenuItem.Name = "sưaToolStripMenuItem";
-            this.sưaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sưaToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.sưaToolStripMenuItem.Text = "Sửa";
             // 
             // hiênThiToolStripMenuItem
             // 
             this.hiênThiToolStripMenuItem.Name = "hiênThiToolStripMenuItem";
-            this.hiênThiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.hiênThiToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.hiênThiToolStripMenuItem.Text = "Hiển thị";
             // 
             // timToolStripMenuItem
             // 
             this.timToolStripMenuItem.Name = "timToolStripMenuItem";
-            this.timToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.timToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.timToolStripMenuItem.Text = "Tìm";
             // 
             // hươngDânChungToolStripMenuItem
@@ -383,12 +401,45 @@ namespace Final
             this.sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem.Text = "Sử dụng phím hành động \"Tiến hành\" để thực hiện chức năng. Phím \"Hủy" +
     "\" để thoát chức năng";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Final.Properties.Resources._718323;
+            this.pictureBox2.Location = new System.Drawing.Point(535, 554);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(26, 26);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 34;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Final.Properties.Resources._954591;
+            this.pictureBox1.Location = new System.Drawing.Point(597, 485);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 28);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 33;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Final.Properties.Resources._4442016;
+            this.pictureBox3.Location = new System.Drawing.Point(701, 554);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(36, 33);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 35;
+            this.pictureBox3.TabStop = false;
+            // 
             // BookManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1188, 613);
+            this.ClientSize = new System.Drawing.Size(1188, 627);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Function);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.AuthorName);
@@ -422,6 +473,9 @@ namespace Final
             ((System.ComponentModel.ISupportInitialize)(this.dataGridBook)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -464,5 +518,8 @@ namespace Final
         private System.Windows.Forms.ToolStripMenuItem hươngDânChungToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sưDungCacPhimChưcNăngĐêTuyChinhChêĐôToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sưDungPhimHanhĐôngTiênHanhĐêThưcHiênChưcNăngPhimHuyĐêThoatChưcNăngToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

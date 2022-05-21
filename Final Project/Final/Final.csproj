@@ -248,22 +248,34 @@
     <None Include="Resources\books.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\219983.png" />
+    <None Include="Resources\0-library-center___media_library_original_1600_900.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\signin.png" />
+    <None Include="Resources\189254.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\z3430786294749_ce797c89dcecec25b38c6497003e05b9.jpg" />
+    <None Include="Resources\718323.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\book.png" />
+    <None Include="Resources\954591.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\menu.png" />
+    <None Include="Resources\2353441.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\reader.png" />
+    <None Include="Resources\3293466.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4442016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1629083.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />

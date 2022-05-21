@@ -37,9 +37,14 @@
             this.butt_Login = new System.Windows.Forms.Button();
             this.ConcealPass = new System.Windows.Forms.CheckBox();
             this.linkSign = new System.Windows.Forms.LinkLabel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -70,11 +75,9 @@
             // 
             // butt_Login
             // 
-            this.butt_Login.BackColor = System.Drawing.Color.BlueViolet;
             resources.ApplyResources(this.butt_Login, "butt_Login");
-            this.butt_Login.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.butt_Login.Name = "butt_Login";
-            this.butt_Login.UseVisualStyleBackColor = false;
+            this.butt_Login.UseVisualStyleBackColor = true;
             this.butt_Login.Click += new System.EventHandler(this.butt_Login_Click);
             // 
             // ConcealPass
@@ -91,28 +94,44 @@
             this.linkSign.TabStop = true;
             this.linkSign.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSign_LinkClicked);
             // 
-            // label5
+            // pictureBox4
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.BackColor = System.Drawing.Color.BlueViolet;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Name = "label5";
+            this.pictureBox4.Image = global::Final.Properties.Resources._3293466;
+            resources.ApplyResources(this.pictureBox4, "pictureBox4");
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Final.Properties.Resources._1629083;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Final.Properties.Resources._219983;
+            this.pictureBox1.Image = global::Final.Properties.Resources._3293466;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Final.Properties.Resources._2353441;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
             // 
             // LogIn
             // 
             this.AcceptButton = this.butt_Login;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.linkSign);
             this.Controls.Add(this.ConcealPass);
             this.Controls.Add(this.butt_Login);
@@ -124,7 +143,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "LogIn";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,8 +162,10 @@
         private System.Windows.Forms.Button butt_Login;
         private System.Windows.Forms.CheckBox ConcealPass;
         private System.Windows.Forms.LinkLabel linkSign;
-        public System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
