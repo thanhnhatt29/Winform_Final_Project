@@ -42,28 +42,41 @@ namespace Final
         private void Book_Click(object sender, EventArgs e)
         {
             BookManage bookManage = new BookManage();
-            bookManage.ShowDialog();
+            Delete_All_ChildenForm();
+            bookManage.MdiParent = this;
+            bookManage.FormBorderStyle = FormBorderStyle.None;
+            bookManage.Dock = DockStyle.Fill;
+            bookManage.Show();
         }
 
         private void Reader_Click(object sender, EventArgs e)
         {
             ReaderManage readerManage = new ReaderManage();
-            readerManage.ShowDialog();
+            Delete_All_ChildenForm();
+            readerManage.MdiParent = this;
+            readerManage.FormBorderStyle = FormBorderStyle.None;
+            readerManage.Dock = DockStyle.Fill;
+            readerManage.Show();
         }
 
         private void Borrow_Click(object sender, EventArgs e)
         {
             BorrowManage borrowManage = new BorrowManage(hidname);
-            borrowManage.ShowDialog();
+            Delete_All_ChildenForm();
+            borrowManage.MdiParent = this;
+            borrowManage.FormBorderStyle = FormBorderStyle.None;
+            borrowManage.Dock = DockStyle.Fill;
+            borrowManage.Show();
         }
 
         private void User_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Underdevelopment");
             UserDetail userDetail = new UserDetail(hidname);
-            //userDetail.user = label1.Text;
-            //MessageBox.Show(hidname);
-            userDetail.ShowDialog();
+            Delete_All_ChildenForm();
+            userDetail.MdiParent = this;
+            userDetail.FormBorderStyle = FormBorderStyle.None;
+            userDetail.Dock = DockStyle.Fill;
+            userDetail.Show();
 
         }
 
@@ -72,19 +85,37 @@ namespace Final
             this.Close();
             LogIn logIn = new LogIn();
             logIn.Show();
-
         }
 
         private void Author_Click(object sender, EventArgs e)
         {
             AuthorManage authorManage = new AuthorManage();
-            authorManage.ShowDialog();
+            authorManage.MdiParent = this;
+            authorManage.FormBorderStyle = FormBorderStyle.None;
+            authorManage.Dock = DockStyle.Fill;
+            authorManage.Show();
         }
 
         private void Card_Click(object sender, EventArgs e)
         {
             Card card = new Card();
-            card.ShowDialog();
+            Delete_All_ChildenForm();
+            card.MdiParent = this;
+            card.FormBorderStyle = FormBorderStyle.None;
+            card.Dock = DockStyle.Fill;
+            card.Show();
+        }
+        public void Delete_All_ChildenForm()
+        {
+            //Greet.Hide();
+            foreach (Form frm in this.MdiChildren)
+            {
+                if (!frm.Focused)
+                {
+                    frm.Visible = false;
+                    frm.Dispose();
+                }
+            }
         }
     }
 }

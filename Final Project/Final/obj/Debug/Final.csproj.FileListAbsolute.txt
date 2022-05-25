@@ -228,3 +228,6 @@ C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Winform_Final_Project\Final Proje
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Winform_Final_Project\Final Project\Final\obj\Debug\Final.csproj.CopyComplete
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Winform_Final_Project\Final Project\Final\obj\Debug\Final.exe
 C:\Users\huynh\OneDrive\Máy tính\ki2nam2\Win\Winform_Final_Project\Final Project\Final\obj\Debug\Final.pdb
+D:\UTE College\program\winform\GITHUB\Final Project\Final\obj\Debug\Final.BorrowAdd.resources
+D:\UTE College\program\winform\GITHUB\Final Project\Final\obj\Debug\Final.Card.resources
+D:\UTE College\program\winform\GITHUB\Final Project\Final\obj\Debug\Final.UserDetail.resources

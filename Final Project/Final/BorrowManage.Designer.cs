@@ -40,6 +40,7 @@
             // 
             // dataBorrow
             // 
+            this.dataBorrow.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataBorrow.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataBorrow.Location = new System.Drawing.Point(12, 53);
             this.dataBorrow.Name = "dataBorrow";
@@ -50,6 +51,7 @@
             // 
             // buttonBorrow
             // 
+            this.buttonBorrow.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonBorrow.Location = new System.Drawing.Point(12, 329);
             this.buttonBorrow.Name = "buttonBorrow";
             this.buttonBorrow.Size = new System.Drawing.Size(199, 54);
@@ -60,6 +62,7 @@
             // 
             // txbSoThe
             // 
+            this.txbSoThe.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txbSoThe.Location = new System.Drawing.Point(472, 17);
             this.txbSoThe.Name = "txbSoThe";
             this.txbSoThe.Size = new System.Drawing.Size(389, 22);
@@ -68,6 +71,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(403, 20);
             this.label1.Name = "label1";
@@ -77,6 +81,7 @@
             // 
             // buttonGiveBack
             // 
+            this.buttonGiveBack.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonGiveBack.Location = new System.Drawing.Point(852, 329);
             this.buttonGiveBack.Name = "buttonGiveBack";
             this.buttonGiveBack.Size = new System.Drawing.Size(121, 54);
@@ -87,6 +92,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 20);
             this.label3.Name = "label3";
@@ -96,6 +102,7 @@
             // 
             // cb_DaTra
             // 
+            this.cb_DaTra.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cb_DaTra.AutoSize = true;
             this.cb_DaTra.Location = new System.Drawing.Point(879, 20);
             this.cb_DaTra.Name = "cb_DaTra";

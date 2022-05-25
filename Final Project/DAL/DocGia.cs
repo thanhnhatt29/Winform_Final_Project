@@ -26,6 +26,6 @@ namespace DAL
         public string SDT { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TheThuVien> TheThuViens { get; set; }
+        private ICollection<TheThuVien> TheThuViens { get; set; }
     }
 }

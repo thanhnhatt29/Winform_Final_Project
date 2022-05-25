@@ -295,6 +295,18 @@
   <ItemGroup>
     <None Include="Resources\update.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32934661.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

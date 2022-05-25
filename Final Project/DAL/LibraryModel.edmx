@@ -167,7 +167,7 @@
           <Property Name="TenDocGia" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="DiaChi" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
           <Property Name="SDT" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="TheThuViens" Relationship="Self.FK__TheThuVie__MaDoc__286302EC" FromRole="DocGia" ToRole="TheThuVien" />
+          <NavigationProperty Name="TheThuViens" Relationship="Self.FK__TheThuVie__MaDoc__286302EC" FromRole="DocGia" ToRole="TheThuVien" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:GetterAccess="Private" />
         </EntityType>
         <EntityType Name="MuonTra">
           <Key>

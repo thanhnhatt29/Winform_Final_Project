@@ -36,32 +36,42 @@
             this.Quit = new System.Windows.Forms.LinkLabel();
             this.Author = new System.Windows.Forms.Button();
             this.Card = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Greet
             // 
             this.Greet.BackColor = System.Drawing.Color.Transparent;
-            this.Greet.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Greet.Font = new System.Drawing.Font("Palatino Linotype", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Greet.ForeColor = System.Drawing.Color.Pink;
-            this.Greet.Location = new System.Drawing.Point(121, 590);
+            this.Greet.Location = new System.Drawing.Point(601, 62);
             this.Greet.Name = "Greet";
-            this.Greet.Size = new System.Drawing.Size(776, 62);
+            this.Greet.Size = new System.Drawing.Size(633, 62);
             this.Greet.TabIndex = 0;
             this.Greet.Text = "Chào";
-            this.Greet.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Greet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Book
             // 
-            this.Book.BackColor = System.Drawing.Color.BlueViolet;
+            this.Book.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(53)))), ((int)(((byte)(83)))));
+            this.Book.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Book.FlatAppearance.BorderSize = 0;
+            this.Book.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.Book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Book.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Book.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Book.Location = new System.Drawing.Point(130, 250);
+            this.Book.Location = new System.Drawing.Point(0, 151);
             this.Book.Name = "Book";
-            this.Book.Size = new System.Drawing.Size(210, 114);
+            this.Book.Size = new System.Drawing.Size(200, 81);
             this.Book.TabIndex = 1;
             this.Book.Text = "📚 Quản lý Sách";
             this.Book.UseVisualStyleBackColor = false;
@@ -69,12 +79,16 @@
             // 
             // Reader
             // 
-            this.Reader.BackColor = System.Drawing.Color.BlueViolet;
+            this.Reader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(53)))), ((int)(((byte)(83)))));
+            this.Reader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Reader.FlatAppearance.BorderSize = 0;
+            this.Reader.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.Reader.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Reader.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reader.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Reader.Location = new System.Drawing.Point(412, 250);
+            this.Reader.Location = new System.Drawing.Point(0, 311);
             this.Reader.Name = "Reader";
-            this.Reader.Size = new System.Drawing.Size(210, 114);
+            this.Reader.Size = new System.Drawing.Size(200, 73);
             this.Reader.TabIndex = 2;
             this.Reader.Text = "👬 Quản lý Độc giả";
             this.Reader.UseVisualStyleBackColor = false;
@@ -82,12 +96,16 @@
             // 
             // Borrow
             // 
-            this.Borrow.BackColor = System.Drawing.Color.BlueViolet;
+            this.Borrow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(53)))), ((int)(((byte)(83)))));
+            this.Borrow.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Borrow.FlatAppearance.BorderSize = 0;
+            this.Borrow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.Borrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Borrow.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Borrow.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Borrow.Location = new System.Drawing.Point(130, 416);
+            this.Borrow.Location = new System.Drawing.Point(0, 73);
             this.Borrow.Name = "Borrow";
-            this.Borrow.Size = new System.Drawing.Size(210, 114);
+            this.Borrow.Size = new System.Drawing.Size(200, 78);
             this.Borrow.TabIndex = 3;
             this.Borrow.Text = "📖 Mượn Trả sách";
             this.Borrow.UseVisualStyleBackColor = false;
@@ -95,12 +113,16 @@
             // 
             // User
             // 
-            this.User.BackColor = System.Drawing.Color.BlueViolet;
+            this.User.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(53)))), ((int)(((byte)(83)))));
+            this.User.Dock = System.Windows.Forms.DockStyle.Top;
+            this.User.FlatAppearance.BorderSize = 0;
+            this.User.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.User.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.User.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.User.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.User.Location = new System.Drawing.Point(412, 416);
+            this.User.Location = new System.Drawing.Point(0, 384);
             this.User.Name = "User";
-            this.User.Size = new System.Drawing.Size(210, 114);
+            this.User.Size = new System.Drawing.Size(200, 71);
             this.User.TabIndex = 4;
             this.User.Text = "👤 Thông tin Tài khoản";
             this.User.UseVisualStyleBackColor = false;
@@ -111,24 +133,28 @@
             this.Quit.BackColor = System.Drawing.Color.Transparent;
             this.Quit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quit.ForeColor = System.Drawing.Color.Bisque;
-            this.Quit.LinkColor = System.Drawing.Color.Aqua;
-            this.Quit.Location = new System.Drawing.Point(17, -1);
+            this.Quit.LinkColor = System.Drawing.Color.WhiteSmoke;
+            this.Quit.Location = new System.Drawing.Point(-17, 606);
             this.Quit.Name = "Quit";
             this.Quit.Size = new System.Drawing.Size(173, 34);
             this.Quit.TabIndex = 5;
             this.Quit.TabStop = true;
-            this.Quit.Text = "Trở về Đăng nhập";
+            this.Quit.Text = "Trở về";
             this.Quit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Quit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Quit_LinkClicked);
             // 
             // Author
             // 
-            this.Author.BackColor = System.Drawing.Color.BlueViolet;
+            this.Author.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(53)))), ((int)(((byte)(83)))));
+            this.Author.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Author.FlatAppearance.BorderSize = 0;
+            this.Author.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.Author.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Author.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Author.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Author.Location = new System.Drawing.Point(687, 250);
+            this.Author.Location = new System.Drawing.Point(0, 232);
             this.Author.Name = "Author";
-            this.Author.Size = new System.Drawing.Size(210, 114);
+            this.Author.Size = new System.Drawing.Size(200, 79);
             this.Author.TabIndex = 6;
             this.Author.Text = "👬 Quản lý Tác giả";
             this.Author.UseVisualStyleBackColor = false;
@@ -136,63 +162,106 @@
             // 
             // Card
             // 
-            this.Card.BackColor = System.Drawing.Color.BlueViolet;
+            this.Card.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(53)))), ((int)(((byte)(83)))));
+            this.Card.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Card.FlatAppearance.BorderSize = 0;
+            this.Card.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
+            this.Card.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Card.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Card.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Card.Location = new System.Drawing.Point(687, 416);
+            this.Card.Location = new System.Drawing.Point(0, 0);
             this.Card.Name = "Card";
-            this.Card.Size = new System.Drawing.Size(210, 114);
+            this.Card.Size = new System.Drawing.Size(200, 73);
             this.Card.TabIndex = 7;
             this.Card.Text = "💳 Quản lý Thẻ";
             this.Card.UseVisualStyleBackColor = false;
             this.Card.Click += new System.EventHandler(this.Card_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.Greet);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1275, 124);
+            this.panel1.TabIndex = 10;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Final.Properties.Resources.pngegg;
+            this.pictureBox2.Location = new System.Drawing.Point(112, -100);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(689, 317);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox3.Image = global::Final.Properties.Resources.library;
+            this.pictureBox3.InitialImage = global::Final.Properties.Resources._3293466;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(200, 124);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Final.Properties.Resources._189254;
-            this.pictureBox1.Location = new System.Drawing.Point(-9, -4);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 603);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(38, 37);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // panel2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Final.Properties.Resources.menu;
-            this.pictureBox2.Location = new System.Drawing.Point(277, 21);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(471, 214);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(53)))), ((int)(((byte)(83)))));
+            this.panel2.Controls.Add(this.User);
+            this.panel2.Controls.Add(this.Reader);
+            this.panel2.Controls.Add(this.Author);
+            this.panel2.Controls.Add(this.Book);
+            this.panel2.Controls.Add(this.Borrow);
+            this.panel2.Controls.Add(this.Card);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.Quit);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 124);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 689);
+            this.panel2.TabIndex = 11;
             // 
             // MenuSelect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::Final.Properties.Resources.z3430786294749_ce797c89dcecec25b38c6497003e05b9;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1051, 661);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.Card);
-            this.Controls.Add(this.Author);
-            this.Controls.Add(this.Quit);
-            this.Controls.Add(this.User);
-            this.Controls.Add(this.Borrow);
-            this.Controls.Add(this.Reader);
-            this.Controls.Add(this.Book);
-            this.Controls.Add(this.Greet);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(1275, 813);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.Name = "MenuSelect";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -208,5 +277,8 @@
         private System.Windows.Forms.Button Card;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel2;
     }
 }
