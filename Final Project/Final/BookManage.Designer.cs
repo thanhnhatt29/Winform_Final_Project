@@ -131,21 +131,24 @@ namespace Final
             // text
             // 
             this.text.AutoSize = true;
-            this.text.Location = new System.Drawing.Point(377, 351);
+            this.text.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text.Location = new System.Drawing.Point(356, 355);
             this.text.Name = "text";
-            this.text.Size = new System.Drawing.Size(60, 16);
+            this.text.Size = new System.Drawing.Size(78, 23);
             this.text.TabIndex = 17;
             this.text.Text = "Số lượng";
             // 
             // Amount
             // 
-            this.Amount.Location = new System.Drawing.Point(478, 345);
+            this.Amount.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Amount.Location = new System.Drawing.Point(478, 348);
             this.Amount.Name = "Amount";
-            this.Amount.Size = new System.Drawing.Size(211, 22);
+            this.Amount.Size = new System.Drawing.Size(223, 30);
             this.Amount.TabIndex = 16;
             // 
             // Genre
             // 
+            this.Genre.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Genre.FormattingEnabled = true;
             this.Genre.Items.AddRange(new object[] {
             "trinh tham",
@@ -153,43 +156,47 @@ namespace Final
             "kinh di",
             "hanh dong",
             "phieu luu"});
-            this.Genre.Location = new System.Drawing.Point(95, 443);
+            this.Genre.Location = new System.Drawing.Point(116, 446);
             this.Genre.Name = "Genre";
-            this.Genre.Size = new System.Drawing.Size(234, 24);
+            this.Genre.Size = new System.Drawing.Size(223, 31);
             this.Genre.TabIndex = 15;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 450);
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(24, 449);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 16);
+            this.label3.Size = new System.Drawing.Size(71, 23);
             this.label3.TabIndex = 14;
             this.label3.Text = "Thể loại";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(726, 351);
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(712, 352);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 16);
+            this.label2.Size = new System.Drawing.Size(65, 23);
             this.label2.TabIndex = 12;
             this.label2.Text = "Tác giả";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 402);
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 402);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 16);
+            this.label1.Size = new System.Drawing.Size(79, 23);
             this.label1.TabIndex = 11;
             this.label1.Text = "Tên Sách";
             // 
             // BookName
             // 
-            this.BookName.Location = new System.Drawing.Point(95, 396);
+            this.BookName.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BookName.Location = new System.Drawing.Point(116, 399);
             this.BookName.Name = "BookName";
-            this.BookName.Size = new System.Drawing.Size(234, 22);
+            this.BookName.Size = new System.Drawing.Size(223, 30);
             this.BookName.TabIndex = 10;
             // 
             // dataGridBook
@@ -205,51 +212,57 @@ namespace Final
             // 
             // BookID
             // 
-            this.BookID.Location = new System.Drawing.Point(95, 345);
+            this.BookID.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BookID.Location = new System.Drawing.Point(116, 348);
             this.BookID.Name = "BookID";
-            this.BookID.Size = new System.Drawing.Size(234, 22);
+            this.BookID.Size = new System.Drawing.Size(223, 30);
             this.BookID.TabIndex = 18;
             // 
             // BookLocate
             // 
-            this.BookLocate.Location = new System.Drawing.Point(478, 392);
+            this.BookLocate.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BookLocate.Location = new System.Drawing.Point(478, 399);
             this.BookLocate.Name = "BookLocate";
-            this.BookLocate.Size = new System.Drawing.Size(211, 22);
+            this.BookLocate.Size = new System.Drawing.Size(223, 30);
             this.BookLocate.TabIndex = 20;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 351);
+            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(24, 351);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 16);
+            this.label4.Size = new System.Drawing.Size(77, 23);
             this.label4.TabIndex = 21;
             this.label4.Text = "Mã Sách";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(377, 398);
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(356, 402);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(32, 16);
+            this.label5.Size = new System.Drawing.Size(50, 23);
             this.label5.TabIndex = 22;
             this.label5.Text = "Vị trí";
             // 
             // Year
             // 
-            this.Year.Location = new System.Drawing.Point(478, 440);
+            this.Year.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Year.Location = new System.Drawing.Point(478, 446);
             this.Year.Name = "Year";
-            this.Year.Size = new System.Drawing.Size(211, 22);
+            this.Year.Size = new System.Drawing.Size(223, 30);
             this.Year.TabIndex = 23;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(377, 445);
+            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(356, 449);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 16);
+            this.label6.Size = new System.Drawing.Size(96, 23);
             this.label6.TabIndex = 24;
-            this.label6.Text = "Năm xuất bản";
+            this.label6.Text = "Năm X.bản";
             // 
             // buttonCancel
             // 
@@ -277,10 +290,11 @@ namespace Final
             // 
             // Author
             // 
+            this.Author.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Author.FormattingEnabled = true;
-            this.Author.Location = new System.Drawing.Point(813, 343);
+            this.Author.Location = new System.Drawing.Point(825, 347);
             this.Author.Name = "Author";
-            this.Author.Size = new System.Drawing.Size(234, 24);
+            this.Author.Size = new System.Drawing.Size(223, 31);
             this.Author.TabIndex = 27;
             // 
             // buttonShow
@@ -298,26 +312,29 @@ namespace Final
             // 
             // AuthorName
             // 
-            this.AuthorName.Location = new System.Drawing.Point(814, 399);
+            this.AuthorName.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AuthorName.Location = new System.Drawing.Point(825, 399);
             this.AuthorName.Name = "AuthorName";
-            this.AuthorName.Size = new System.Drawing.Size(234, 22);
+            this.AuthorName.Size = new System.Drawing.Size(223, 30);
             this.AuthorName.TabIndex = 29;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(726, 404);
+            this.label7.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(707, 402);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 16);
+            this.label7.Size = new System.Drawing.Size(102, 23);
             this.label7.TabIndex = 30;
             this.label7.Text = "Tên Tác Giả";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Function
             // 
-            this.Function.Location = new System.Drawing.Point(527, 317);
+            this.Function.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Function.Location = new System.Drawing.Point(478, 312);
             this.Function.Name = "Function";
-            this.Function.Size = new System.Drawing.Size(116, 23);
+            this.Function.Size = new System.Drawing.Size(234, 30);
             this.Function.TabIndex = 31;
             this.Function.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -328,7 +345,7 @@ namespace Final
             this.hươngDânToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1188, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1188, 28);
             this.menuStrip1.TabIndex = 32;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -338,7 +355,7 @@ namespace Final
             this.cacChưcNăngChinhToolStripMenuItem,
             this.hươngDânChungToolStripMenuItem});
             this.hươngDânToolStripMenuItem.Name = "hươngDânToolStripMenuItem";
-            this.hươngDânToolStripMenuItem.Size = new System.Drawing.Size(98, 26);
+            this.hươngDânToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
             this.hươngDânToolStripMenuItem.Text = "Hướng dẫn";
             // 
             // cacChưcNăngChinhToolStripMenuItem
@@ -444,7 +461,7 @@ namespace Final
             this.label8.BackColor = System.Drawing.Color.PaleGreen;
             this.label8.Dock = System.Windows.Forms.DockStyle.Top;
             this.label8.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(0, 30);
+            this.label8.Location = new System.Drawing.Point(0, 28);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(1188, 85);
             this.label8.TabIndex = 36;

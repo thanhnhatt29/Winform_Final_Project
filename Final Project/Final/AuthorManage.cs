@@ -84,7 +84,5 @@ namespace Final
             List<TacGia> TG = context.TacGias.Where(x => x.MaTacGia == MaTacGia1).ToList();
             HienThiTacGia();
         }
-
-      
     }
 }

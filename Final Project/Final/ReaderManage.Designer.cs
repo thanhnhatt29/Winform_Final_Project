@@ -64,7 +64,7 @@
             this.dataGridViewReader.Name = "dataGridViewReader";
             this.dataGridViewReader.RowHeadersWidth = 51;
             this.dataGridViewReader.RowTemplate.Height = 24;
-            this.dataGridViewReader.Size = new System.Drawing.Size(591, 451);
+            this.dataGridViewReader.Size = new System.Drawing.Size(604, 527);
             this.dataGridViewReader.TabIndex = 0;
             this.dataGridViewReader.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dataGridViewReader_MouseDoubleClick);
             // 
@@ -88,30 +88,33 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
             this.label1.Location = new System.Drawing.Point(665, 127);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 23);
+            this.label1.Size = new System.Drawing.Size(98, 23);
             this.label1.TabIndex = 4;
             this.label1.Text = "Mã Độc giả";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
             this.label2.Location = new System.Drawing.Point(665, 195);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 23);
+            this.label2.Size = new System.Drawing.Size(100, 23);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tên Độc giả";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
             this.label4.Location = new System.Drawing.Point(665, 331);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 23);
+            this.label4.Size = new System.Drawing.Size(113, 23);
             this.label4.TabIndex = 7;
             this.label4.Text = "Số Điện thoại";
             // 
@@ -125,11 +128,14 @@
             // 
             // buttonFind
             // 
-            this.buttonFind.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.buttonFind.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFind.Location = new System.Drawing.Point(862, 510);
+            this.buttonFind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
+            this.buttonFind.FlatAppearance.BorderSize = 0;
+            this.buttonFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFind.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFind.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.buttonFind.Location = new System.Drawing.Point(847, 585);
             this.buttonFind.Name = "buttonFind";
-            this.buttonFind.Size = new System.Drawing.Size(135, 68);
+            this.buttonFind.Size = new System.Drawing.Size(150, 68);
             this.buttonFind.TabIndex = 12;
             this.buttonFind.Text = "Tìm";
             this.buttonFind.UseVisualStyleBackColor = false;
@@ -137,11 +143,14 @@
             // 
             // buttonDel
             // 
-            this.buttonDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.buttonDel.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDel.Location = new System.Drawing.Point(669, 509);
+            this.buttonDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
+            this.buttonDel.FlatAppearance.BorderSize = 0;
+            this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDel.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.buttonDel.Location = new System.Drawing.Point(669, 584);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(140, 69);
+            this.buttonDel.Size = new System.Drawing.Size(155, 69);
             this.buttonDel.TabIndex = 11;
             this.buttonDel.Text = "Xoá";
             this.buttonDel.UseVisualStyleBackColor = false;
@@ -149,23 +158,29 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonEdit.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEdit.Location = new System.Drawing.Point(669, 419);
+            this.buttonEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
+            this.buttonEdit.FlatAppearance.BorderSize = 0;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEdit.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.buttonEdit.Location = new System.Drawing.Point(669, 491);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(140, 70);
+            this.buttonEdit.Size = new System.Drawing.Size(155, 70);
             this.buttonEdit.TabIndex = 10;
-            this.buttonEdit.Text = "Sua";
+            this.buttonEdit.Text = "Sửa";
             this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonAdd
             // 
-            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonAdd.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAdd.Location = new System.Drawing.Point(862, 419);
+            this.buttonAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
+            this.buttonAdd.FlatAppearance.BorderSize = 0;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdd.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.buttonAdd.Location = new System.Drawing.Point(847, 491);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(135, 70);
+            this.buttonAdd.Size = new System.Drawing.Size(150, 70);
             this.buttonAdd.TabIndex = 9;
             this.buttonAdd.Text = "Thêm";
             this.buttonAdd.UseVisualStyleBackColor = false;
@@ -174,10 +189,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
             this.label3.Location = new System.Drawing.Point(665, 263);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 23);
+            this.label3.Size = new System.Drawing.Size(69, 23);
             this.label3.TabIndex = 6;
             this.label3.Text = "Địa Chỉ";
             // 
@@ -191,12 +207,14 @@
             // 
             // buttonedit1
             // 
-            this.buttonedit1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonedit1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonedit1.ForeColor = System.Drawing.Color.Black;
-            this.buttonedit1.Location = new System.Drawing.Point(669, 419);
+            this.buttonedit1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
+            this.buttonedit1.FlatAppearance.BorderSize = 0;
+            this.buttonedit1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonedit1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonedit1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.buttonedit1.Location = new System.Drawing.Point(669, 491);
             this.buttonedit1.Name = "buttonedit1";
-            this.buttonedit1.Size = new System.Drawing.Size(140, 70);
+            this.buttonedit1.Size = new System.Drawing.Size(155, 70);
             this.buttonedit1.TabIndex = 14;
             this.buttonedit1.Text = "Sửa";
             this.buttonedit1.UseVisualStyleBackColor = false;
@@ -204,37 +222,39 @@
             // 
             // buttonUnFind
             // 
-            this.buttonUnFind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.buttonUnFind.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonUnFind.Location = new System.Drawing.Point(862, 509);
+            this.buttonUnFind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
+            this.buttonUnFind.FlatAppearance.BorderSize = 0;
+            this.buttonUnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUnFind.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonUnFind.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.buttonUnFind.Location = new System.Drawing.Point(847, 584);
             this.buttonUnFind.Name = "buttonUnFind";
-            this.buttonUnFind.Size = new System.Drawing.Size(135, 66);
+            this.buttonUnFind.Size = new System.Drawing.Size(150, 66);
             this.buttonUnFind.TabIndex = 15;
-            this.buttonUnFind.Text = "Tim";
+            this.buttonUnFind.Text = "Tìm";
             this.buttonUnFind.UseVisualStyleBackColor = false;
             this.buttonUnFind.Click += new System.EventHandler(this.buttonUnFind_Click);
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.BackColor = System.Drawing.Color.BlueViolet;
-            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(114)))), ((int)(((byte)(83)))));
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(236)))), ((int)(((byte)(173)))));
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(-154, 0);
+            this.label5.Location = new System.Drawing.Point(0, 0);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(1332, 99);
+            this.label5.Size = new System.Drawing.Size(1017, 99);
             this.label5.TabIndex = 105;
             this.label5.Text = "Quản lý Độc giả";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
             this.pictureBox5.Image = global::Final.Properties.Resources.update;
-            this.pictureBox5.Location = new System.Drawing.Point(679, 438);
+            this.pictureBox5.Location = new System.Drawing.Point(679, 510);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(43, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -243,9 +263,9 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
             this.pictureBox4.Image = global::Final.Properties.Resources.add;
-            this.pictureBox4.Location = new System.Drawing.Point(881, 438);
+            this.pictureBox4.Location = new System.Drawing.Point(856, 510);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(27, 34);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -254,9 +274,9 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
             this.pictureBox3.Image = global::Final.Properties.Resources._4442016;
-            this.pictureBox3.Location = new System.Drawing.Point(679, 527);
+            this.pictureBox3.Location = new System.Drawing.Point(679, 602);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(36, 33);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -265,20 +285,20 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
             this.pictureBox2.Image = global::Final.Properties.Resources._954591;
-            this.pictureBox2.Location = new System.Drawing.Point(883, 532);
+            this.pictureBox2.Location = new System.Drawing.Point(856, 602);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 28);
+            this.pictureBox2.Size = new System.Drawing.Size(33, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 108;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.BlueViolet;
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(114)))), ((int)(((byte)(83)))));
             this.pictureBox1.Image = global::Final.Properties.Resources.reader;
-            this.pictureBox1.Location = new System.Drawing.Point(34, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(194, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 99);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -289,8 +309,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(223)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(1017, 589);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(236)))), ((int)(((byte)(173)))));
+            this.ClientSize = new System.Drawing.Size(1017, 682);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -307,13 +327,15 @@
             this.Controls.Add(this.ReaderName);
             this.Controls.Add(this.ReaderID);
             this.Controls.Add(this.dataGridViewReader);
+            this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonFind);
             this.Controls.Add(this.buttonUnFind);
             this.Controls.Add(this.buttonedit1);
             this.Controls.Add(this.buttonEdit);
-            this.Controls.Add(this.buttonDel);
+            this.ForeColor = System.Drawing.Color.Black;
             this.MaximizeBox = false;
             this.Name = "ReaderManage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ReaderManage";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewReader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -329,18 +351,14 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridViewReader;
-        private System.Windows.Forms.TextBox ReaderID;
-        private System.Windows.Forms.TextBox ReaderName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox ReaderPhone;
         private System.Windows.Forms.Button buttonFind;
         private System.Windows.Forms.Button buttonDel;
         private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox ReaderAdr;
         private System.Windows.Forms.Button buttonedit1;
         private System.Windows.Forms.Button buttonUnFind;
         public System.Windows.Forms.Label label5;
@@ -349,5 +367,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.TextBox ReaderID;
+        private System.Windows.Forms.TextBox ReaderName;
+        private System.Windows.Forms.TextBox ReaderPhone;
+        private System.Windows.Forms.TextBox ReaderAdr;
     }
 }

@@ -26,7 +26,22 @@ namespace Final
         
         public void LoadData()
         {
-                dataBorrow.DataSource = bw.LoadData();
+            dataBorrow.DataSource = bw.LoadData();
+            TongLuotMuonTrongThang();
+        }
+        public void TongLuotMuonTrongThang()
+        {
+            int count= 0;
+            var list = bw.LoadData();
+            foreach( MuonTra m in list)
+            {
+                if (m.NgayMuon.Month == DateTime.Today.Month && m.NgayMuon.Year == DateTime.Today.Year)
+                {
+                    count++;
+                }
+            }
+            string total = string.Format("Tháng này có tổng {0} lượt mượn sách", count);
+            lbTongMuon.Text = total;
         }
 
         private void txbSoThe_TextChanged(object sender, EventArgs e)
