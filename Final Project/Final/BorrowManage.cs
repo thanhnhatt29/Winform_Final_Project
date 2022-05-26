@@ -121,7 +121,7 @@ namespace Final
                 for (j = 0; j <= dataBorrow.ColumnCount - 1; j++)
                 {
                     DataGridViewCell cell = dataBorrow[j, i];
-                    if (i == 4 || i == 7)
+                    if ( (i == 4 || i == 7) && cell.Value != null)
                     {
                         cell.Value.ToString().Split(' ');
                     }
@@ -138,7 +138,7 @@ namespace Final
             releaseObject(xlWorkBook);
             releaseObject(xlApp);
 
-            MessageBox.Show("Excel file created , you can find the file c:\\borrow.xls");
+            MessageBox.Show(@"Excel file created , you can find the file C:\Users\ADMIN\OneDrive\Documents\borrow.xls");
 
 
         }

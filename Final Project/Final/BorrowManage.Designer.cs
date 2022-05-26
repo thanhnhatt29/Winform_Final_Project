@@ -152,7 +152,7 @@
             // 
             this.lbTongMuon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbTongMuon.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTongMuon.Location = new System.Drawing.Point(301, 600);
+            this.lbTongMuon.Location = new System.Drawing.Point(233, 600);
             this.lbTongMuon.Name = "lbTongMuon";
             this.lbTongMuon.Size = new System.Drawing.Size(431, 54);
             this.lbTongMuon.TabIndex = 107;

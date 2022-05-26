@@ -1,4 +1,0 @@
-D:\UTE College\program\winform\GITHUB\Winform_Final_Project\QL_TG_Thang\obj\Debug\TG.csproj.AssemblyReference.cache
-D:\UTE College\program\winform\GITHUB\Winform_Final_Project\QL_TG_Thang\obj\Debug\TG.csproj.SuggestedBindingRedirects.cache
-D:\UTE College\program\winform\GITHUB\Winform_Final_Project\QL_TG_Thang\obj\Debug\TG.Form1.resources
-D:\UTE College\program\winform\GITHUB\Winform_Final_Project\QL_TG_Thang\obj\Debug\TG.csproj.GenerateResource.cache
