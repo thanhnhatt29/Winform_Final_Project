@@ -37,6 +37,7 @@
             this.cb_DaTra = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.lbTongMuon = new System.Windows.Forms.Label();
+            this.buttonCSV = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataBorrow)).BeginInit();
             this.SuspendLayout();
             // 
@@ -158,12 +159,29 @@
             this.lbTongMuon.Text = "label2";
             this.lbTongMuon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // buttonCSV
+            // 
+            this.buttonCSV.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonCSV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(164)))), ((int)(((byte)(82)))));
+            this.buttonCSV.FlatAppearance.BorderSize = 0;
+            this.buttonCSV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCSV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCSV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.buttonCSV.Location = new System.Drawing.Point(632, 600);
+            this.buttonCSV.Name = "buttonCSV";
+            this.buttonCSV.Size = new System.Drawing.Size(199, 54);
+            this.buttonCSV.TabIndex = 108;
+            this.buttonCSV.Text = "Xuất ra Excel";
+            this.buttonCSV.UseVisualStyleBackColor = false;
+            this.buttonCSV.Click += new System.EventHandler(this.buttonCSV_Click);
+            // 
             // BorrowManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(236)))), ((int)(((byte)(173)))));
             this.ClientSize = new System.Drawing.Size(985, 666);
+            this.Controls.Add(this.buttonCSV);
             this.Controls.Add(this.lbTongMuon);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cb_DaTra);
@@ -192,5 +210,6 @@
         private System.Windows.Forms.CheckBox cb_DaTra;
         public System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lbTongMuon;
+        private System.Windows.Forms.Button buttonCSV;
     }
 }
