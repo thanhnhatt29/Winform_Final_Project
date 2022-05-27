@@ -99,10 +99,5 @@ namespace Final
             EditInfo.Enabled = true;
         }
 
-        private void butt_Del_Click(object sender, EventArgs e)
-        {
-            Delete(UName.Text.TrimEnd());
-            this.Close();
-        }
     }
 }

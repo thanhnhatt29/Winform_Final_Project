@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.butt_Del = new System.Windows.Forms.Button();
             this.butt_Cancel = new System.Windows.Forms.Button();
             this.EditInfo = new System.Windows.Forms.Button();
             this.butt_Do = new System.Windows.Forms.Button();
@@ -44,20 +43,6 @@
             this.UName = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // butt_Del
-            // 
-            this.butt_Del.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.butt_Del.BackColor = System.Drawing.Color.Red;
-            this.butt_Del.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butt_Del.ForeColor = System.Drawing.Color.Chartreuse;
-            this.butt_Del.Location = new System.Drawing.Point(328, 464);
-            this.butt_Del.Name = "butt_Del";
-            this.butt_Del.Size = new System.Drawing.Size(141, 37);
-            this.butt_Del.TabIndex = 31;
-            this.butt_Del.Text = "Xoá Tài khoản";
-            this.butt_Del.UseVisualStyleBackColor = false;
-            this.butt_Del.Click += new System.EventHandler(this.butt_Del_Click);
             // 
             // butt_Cancel
             // 
@@ -220,7 +205,6 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(800, 525);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.butt_Del);
             this.Controls.Add(this.butt_Cancel);
             this.Controls.Add(this.EditInfo);
             this.Controls.Add(this.butt_Do);
@@ -242,8 +226,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button butt_Del;
         private System.Windows.Forms.Button butt_Cancel;
         private System.Windows.Forms.Button EditInfo;
         private System.Windows.Forms.Button butt_Do;
