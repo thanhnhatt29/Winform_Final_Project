@@ -126,12 +126,13 @@ namespace Final
                         cell.Value.ToString().Split(' ');
                     }
                     xlWorkSheet.Cells[i + 1, j + 1] = cell.Value;
-                    //MessageBox.Show(cell.Value.ToString());
+                    
                 }
             }
 
             xlWorkBook.SaveAs("borrow.xls", Microsoft.Office.Interop.Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
-            xlWorkBook.Close(true, misValue, misValue);
+            //xlWorkBook.Close(true, misValue, misValue);
+            xlWorkBook.Close(0);
             xlApp.Quit();
 
             releaseObject(xlWorkSheet);
