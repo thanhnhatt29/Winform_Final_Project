@@ -43,6 +43,10 @@
             this.giaHanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chonTheCânGiaHanVaYêuCâuGiaHanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCard)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -59,6 +63,8 @@
             // dataGridCard
             // 
             this.dataGridCard.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dataGridCard.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridCard.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridCard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridCard.Location = new System.Drawing.Point(30, 146);
             this.dataGridCard.Name = "dataGridCard";
@@ -133,7 +139,7 @@
             this.hươngDânToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1085, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1085, 28);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -143,7 +149,7 @@
             this.đăngKyToolStripMenuItem,
             this.giaHanToolStripMenuItem});
             this.hươngDânToolStripMenuItem.Name = "hươngDânToolStripMenuItem";
-            this.hươngDânToolStripMenuItem.Size = new System.Drawing.Size(98, 26);
+            this.hươngDânToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
             this.hươngDânToolStripMenuItem.Text = "Hướng dẫn";
             // 
             // đăngKyToolStripMenuItem
@@ -186,14 +192,50 @@
             // 
             this.label3.BackColor = System.Drawing.Color.PaleGreen;
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(0, 30);
+            this.label3.Location = new System.Drawing.Point(0, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1085, 85);
+            this.label3.Size = new System.Drawing.Size(1085, 102);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Thẻ Thư viện";
+            this.label3.Text = "Thẻ Thư Viện";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(1075, 130);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 479);
+            this.panel3.TabIndex = 112;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 130);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1075, 8);
+            this.panel1.TabIndex = 113;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 138);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 471);
+            this.panel4.TabIndex = 114;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(10, 601);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1065, 8);
+            this.panel2.TabIndex = 115;
             // 
             // Card
             // 
@@ -201,6 +243,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(1085, 609);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Update_card);
             this.Controls.Add(this.Regis_card);
@@ -237,5 +283,9 @@
         private System.Windows.Forms.ToolStripMenuItem giaHanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chonTheCânGiaHanVaYêuCâuGiaHanToolStripMenuItem;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel2;
     }
 }

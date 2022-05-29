@@ -14,7 +14,6 @@ namespace Final
     
     public partial class BorrowManage : Form
     {
-        QLTHUVIENEntities QLTHUVIEN = new QLTHUVIENEntities();
         BorrowBLL bw = new BorrowBLL();
         public string user;
         public BorrowManage(string hidname)
@@ -31,15 +30,7 @@ namespace Final
         }
         public void TongLuotMuonTrongThang()
         {
-            int count= 0;
-            var list = bw.LoadData();
-            foreach( MuonTra m in list)
-            {
-                if (m.NgayMuon.Month == DateTime.Today.Month && m.NgayMuon.Year == DateTime.Today.Year)
-                {
-                    count++;
-                }
-            }
+            int count = bw.TongLuotMuonTrongThangBLL();
             string total = string.Format("Tháng này có tổng {0} lượt mượn sách", count);
             lbTongMuon.Text = total;
         }
@@ -88,13 +79,11 @@ namespace Final
             {
                 if (string.IsNullOrEmpty(txbSoThe.Text))
                 {
-                    var result = bw.LoadData();
-                    dataBorrow.DataSource = result.Where(c => c.Da_Tra == false).ToList();
+                    dataBorrow.DataSource = bw.LoadData_ChuaTra();
                 }
                 else
                 {
-                    var result = bw.FindBorrowBLL(Convert.ToInt16(txbSoThe.Text));
-                    dataBorrow.DataSource = result.Where(c => c.Da_Tra == false).ToList();
+                    dataBorrow.DataSource = bw.FindBorrowBLL_ChuaTra(Convert.ToInt16(txbSoThe.Text));
                 }
             }
             else
@@ -140,7 +129,6 @@ namespace Final
             releaseObject(xlApp);
 
             MessageBox.Show(@"Excel file created , you can find the file C:\Users\ADMIN\OneDrive\Documents\borrow.xls");
-
 
         }
         private void releaseObject(object obj)

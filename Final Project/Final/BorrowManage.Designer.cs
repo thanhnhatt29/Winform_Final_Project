@@ -38,12 +38,18 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lbTongMuon = new System.Windows.Forms.Label();
             this.buttonCSV = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataBorrow)).BeginInit();
             this.SuspendLayout();
             // 
             // dataBorrow
             // 
             this.dataBorrow.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataBorrow.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataBorrow.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataBorrow.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataBorrow.Location = new System.Drawing.Point(12, 158);
             this.dataBorrow.Name = "dataBorrow";
@@ -175,12 +181,52 @@
             this.buttonCSV.UseVisualStyleBackColor = false;
             this.buttonCSV.Click += new System.EventHandler(this.buttonCSV_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 99);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(985, 8);
+            this.panel1.TabIndex = 109;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 658);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(985, 8);
+            this.panel2.TabIndex = 110;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(975, 107);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 551);
+            this.panel3.TabIndex = 111;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 107);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 551);
+            this.panel4.TabIndex = 112;
+            // 
             // BorrowManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(236)))), ((int)(((byte)(173)))));
             this.ClientSize = new System.Drawing.Size(985, 666);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonCSV);
             this.Controls.Add(this.lbTongMuon);
             this.Controls.Add(this.label5);
@@ -211,5 +257,9 @@
         public System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lbTongMuon;
         private System.Windows.Forms.Button buttonCSV;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
     }
 }

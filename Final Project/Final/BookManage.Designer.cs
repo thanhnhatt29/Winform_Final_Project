@@ -69,6 +69,10 @@ namespace Final
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridBook)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -201,8 +205,10 @@ namespace Final
             // 
             // dataGridBook
             // 
+            this.dataGridBook.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridBook.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridBook.Location = new System.Drawing.Point(12, 116);
+            this.dataGridBook.Location = new System.Drawing.Point(12, 127);
             this.dataGridBook.Name = "dataGridBook";
             this.dataGridBook.RowHeadersWidth = 51;
             this.dataGridBook.RowTemplate.Height = 24;
@@ -332,9 +338,9 @@ namespace Final
             // Function
             // 
             this.Function.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Function.Location = new System.Drawing.Point(478, 312);
+            this.Function.Location = new System.Drawing.Point(478, 325);
             this.Function.Name = "Function";
-            this.Function.Size = new System.Drawing.Size(234, 30);
+            this.Function.Size = new System.Drawing.Size(223, 17);
             this.Function.TabIndex = 31;
             this.Function.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -460,13 +466,49 @@ namespace Final
             // 
             this.label8.BackColor = System.Drawing.Color.PaleGreen;
             this.label8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label8.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Palatino Linotype", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(0, 28);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(1188, 85);
             this.label8.TabIndex = 36;
             this.label8.Text = "Quản lý Sách";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(1178, 113);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 630);
+            this.panel3.TabIndex = 112;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 113);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1178, 8);
+            this.panel1.TabIndex = 113;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 121);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 622);
+            this.panel4.TabIndex = 114;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(91)))), ((int)(((byte)(49)))), ((int)(((byte)(120)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(10, 735);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1168, 8);
+            this.panel2.TabIndex = 115;
             // 
             // BookManage
             // 
@@ -475,6 +517,10 @@ namespace Final
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(1188, 743);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.Genre);
             this.Controls.Add(this.BookName);
             this.Controls.Add(this.BookID);
@@ -561,5 +607,9 @@ namespace Final
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel2;
     }
 }

@@ -14,9 +14,10 @@ namespace Final
 {
     public partial class BorrowAdd : Form
     {
-        QLTHUVIENEntities db = new QLTHUVIENEntities();
         BorrowBLL bw = new BorrowBLL();
+        BookBLL book = new BookBLL();
         public string user;
+        List<MuonTra> lstMuon = new List<MuonTra>();
         public BorrowAdd(string user)
         {
             InitializeComponent();
@@ -26,7 +27,7 @@ namespace Final
         
         public void LoadData()
         {
-            dataBook.DataSource = db.Saches.Where(c => c.SoLuongConLai != 0).Select(c => new
+            dataBook.DataSource = book.LoadAll().Where(c => c.SoLuongConLai != 0).Select(c => new
             {
                 MaSach = c.MaSach,
                 TenSach = c.TenSach
@@ -36,14 +37,16 @@ namespace Final
         {
             if (lstMuon.Count > 0)
             {
-                foreach (MuonTra i in lstMuon)
+                if (!bw.AddBorrowBLL(lstMuon))
                 {
-                    db.MuonTras.Add(i);
+                    MessageBox.Show("Không thành công! Vui lòng thử lại");
                 }
-                db.SaveChanges();
-                lstMuon.Clear();
-                dataBorrow.DataSource = null;
-                MessageBox.Show("Mượn thành công");
+                else
+                {
+                    lstMuon.Clear();
+                    dataBorrow.DataSource = null;
+                    MessageBox.Show("Mượn thành công");
+                }
             }
             else
             {
@@ -68,7 +71,7 @@ namespace Final
                 LoadData();
             }
         }
-        List<MuonTra> lstMuon = new List<MuonTra>();
+        
         private void btThem_Click(object sender, EventArgs e)
         {
             if(!string.IsNullOrEmpty(txbSoThe.Text))

@@ -13,7 +13,6 @@ namespace DAL
         public List<MuonTra> FindBorrowDAL(int sothe)
         {
             return db.MuonTras.Where(c => c.SoThe == sothe).ToList();
-
         }
 
         public bool ReturnBorrowDAL(int id_tra)
@@ -42,6 +41,23 @@ namespace DAL
             }
             catch
             { return false; }
+        }
+        
+        public bool AddBorrowDAL(List<MuonTra> i)
+        {
+            try
+            {
+                foreach (MuonTra mt in i)
+                {
+                    db.MuonTras.Add(mt);
+                }
+                db.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public List<Sach> FindBookDAL(string text)

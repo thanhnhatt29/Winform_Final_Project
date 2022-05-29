@@ -16,9 +16,9 @@ namespace Final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            LogIn log = new LogIn();
+            //LogIn log = new LogIn();
             /*BookManage manage=new BookManage();*/
-            //MenuSelect log = new MenuSelect("NTD");
+            MenuSelect log = new MenuSelect("NTD");
             Application.Run(log);
 
         }
