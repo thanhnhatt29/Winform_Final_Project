@@ -1,0 +1,6 @@
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DTO\bin\Debug\DTO.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DTO\bin\Debug\DTO.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DTO\obj\Debug\DTO.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,15 @@
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\BLL.dll.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\BLL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\BLL.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\DAL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\DTO.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\EntityFramework.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\DAL.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\DAL.dll.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\DTO.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\bin\Debug\EntityFramework.xml
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\obj\Debug\BLL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\BLL\obj\Debug\BLL.pdb

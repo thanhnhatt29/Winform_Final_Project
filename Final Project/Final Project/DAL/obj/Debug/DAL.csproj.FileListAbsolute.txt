@@ -1,0 +1,14 @@
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\DAL.dll.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\DAL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\DAL.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\DTO.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\EntityFramework.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\DTO.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\EntityFramework.xml
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\obj\Debug\DAL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\DAL\obj\Debug\DAL.pdb
