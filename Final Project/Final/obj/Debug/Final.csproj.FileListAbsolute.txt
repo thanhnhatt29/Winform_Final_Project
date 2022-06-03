@@ -1,0 +1,74 @@
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\Final.exe.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\Final.exe
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\Final.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\BLL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\DAL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\DTO.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\EntityFramework.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\EntityFramework.SqlServer.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\BLL.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\BLL.dll.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\DAL.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\DAL.dll.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\DTO.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\EntityFramework.xml
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\bin\Debug\EntityFramework.SqlServer.xml
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.csproj.AssemblyReference.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.csproj.SuggestedBindingRedirects.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.Book.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.BookAdd.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.BookManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.AuthorManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.BorrowAdd.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.BorrowManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.Card.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.LogIn.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.MenuSelect.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.Properties.Resources.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.Reader.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.ReaderAdd.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.ReaderManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.SignIn.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.UserDetail.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.csproj.GenerateResource.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.csproj.CoreCompileInputs.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.csproj.CopyComplete
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.exe
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Thang Final Project1\Final Project\Final\obj\Debug\Final.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\Final.exe.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\Final.exe
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\Final.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\BLL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\DAL.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\DTO.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\EntityFramework.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\EntityFramework.SqlServer.dll
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\BLL.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\BLL.dll.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\DAL.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\DAL.dll.config
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\DTO.pdb
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\EntityFramework.xml
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\bin\Debug\EntityFramework.SqlServer.xml
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.csproj.AssemblyReference.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.csproj.SuggestedBindingRedirects.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.Book.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.BookAdd.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.BookManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.AuthorManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.BorrowAdd.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.BorrowManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.Card.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.LogIn.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.MenuSelect.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.Properties.Resources.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.Reader.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.ReaderAdd.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.ReaderManage.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.SignIn.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.UserDetail.resources
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.csproj.GenerateResource.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.csproj.CoreCompileInputs.cache
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.csproj.CopyComplete
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.exe
+D:\UTE College\program\winform\GITHUB\Winform_Final_Project\Final Project\Final Project\Final\obj\Debug\Final.pdb
