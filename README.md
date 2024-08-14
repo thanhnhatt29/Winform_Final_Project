@@ -21,11 +21,11 @@ This is a Library Management System project developed in C#. The project is stru
 
 ## Database
 
-The [`database`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fworkspaces%2FWinform_Final_Project%2Fdatabase%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/workspaces/Winform_Final_Project/database") folder contains SQL scripts for setting up and resetting the database.
+The [`database`](https://github.com/thanhnhatt29/Winform_Final_Project/tree/main/database) folder contains SQL scripts for setting up and resetting the database.
 
 ## Images
 
-The [`image`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fworkspaces%2FWinform_Final_Project%2Fimage%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/workspaces/Winform_Final_Project/image") folder contains images used in the application.
+The [`image`](https://github.com/thanhnhatt29/Winform_Final_Project/tree/main/image) folder contains images used in the application.
 
 ## Build and Run
 
